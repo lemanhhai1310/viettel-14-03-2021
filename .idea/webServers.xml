@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f11281c6-e57e-4002-9584-2e1d148ee565" name="viettel" url="http://103.110.84.119">
+        <fileTransfer rootFolder="/public_html/2021/03/viettel" host="103.110.84.119" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
