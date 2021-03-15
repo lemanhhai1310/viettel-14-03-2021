@@ -29,3 +29,22 @@
   font-weight:normal;
   font-style:normal;
 }
+/**
+ * --------------------------------------------------------------------
+ * Arial
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'UTM Neo Sans Intel Regular';
+  font-display: auto;
+  src:local('UTM Neo Sans Intel Regular'), url('fonts/UTM-Neo-Sans-Intel.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'UTM Neo Sans Intel Bold';
+  font-display: auto;
+  src:local('UTM Neo Sans Intel Bold'), url('fonts/UTM-Neo-Sans-IntelBold.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
