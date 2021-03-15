@@ -1,3 +1,4 @@
+<div class="footer__height"></div>
 <footer class="footer uk-position-relative uk-background-norepeat uk-background-cover uk-background-center-center" data-src="images/footer/bg1.jpeg" uk-img>
     <div class="footer__overlay uk-position-cover"></div>
     <div class="uk-section footer__section1 uk-position-relative">

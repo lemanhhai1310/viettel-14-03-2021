@@ -1,4 +1,7 @@
 .footer{
+  &__height{
+    @include fluidx(320px,100px,height);
+  }
   &__boxLienhe{
     &__body{
       padding: 15px 15px;
@@ -11,6 +14,7 @@
       color: #333333;
       @include media-breakpoint-up('m'){
         height: 48px;
+        padding-left: 24px;
       }
       &::placeholder{
         color: #333333;
