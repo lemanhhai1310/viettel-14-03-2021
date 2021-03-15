@@ -1,0 +1,108 @@
+.footer{
+  &__section1{
+    @include media-breakpoint-up('m'){
+      padding-top: 0 !important;
+      padding-bottom: 40px !important;
+    }
+  }
+  &__overlay{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  }
+  &__card1{
+    box-shadow: 0px 10px 30px rgba(234, 10, 42, 0.2);
+    border-radius: 10px;
+    margin-top: -111px;
+    min-height: 199px;
+  }
+  &__boxLogo{
+    img{
+      //width: 200px;
+      @include media-breakpoint-up('m'){
+        //width: 278px;
+      }
+      @include fluidx(278px,200px,width);
+    }
+  }
+  &__boxDiachi{
+    &__name{
+      @extend .fz-18;
+      line-height: (27/18);
+      color: #ffffff !important;
+      font-family: $font-primary-Bold;
+      margin-bottom: 5px;
+    }
+    &__desc{
+      @extend .fz-16;
+      line-height: (24/16);
+    }
+  }
+  &__boxLienket{
+    padding-top: 20px;
+    border-top: 1px solid #ffffff;
+    &__title{
+      margin: 0;
+      @extend .fz-24;
+      line-height: 1.5;
+      font-family: $font-primary-Bold;
+      color: #ffffff !important;
+    }
+    &__list{
+      margin: 0 !important;
+      >li{
+        margin: 0 !important;
+        &:nth-child(n+2){
+          margin-top: 12px !important;
+        }
+        >a{
+          @extend .fz-16;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+  &__title{
+    @extend .fz-32;
+    line-height: 1.5;
+    color: #FFFFFF;
+    font-family: $font-primary-Bold;
+  }
+  &__menu{
+    margin: 0 !important;
+    >li{
+      &:nth-child(n+2){
+        @include media-breakpoint-up('m'){
+          margin-top: 36px !important;
+        }
+      }
+      >a{
+        color: #ffffff;
+        @extend .fz-20;
+        font-family: $font-primary-Bold;
+        line-height: 1.5;
+      }
+    }
+  }
+  &__brand{
+    img{
+      $x: 42px;
+      width: #{$x};
+    }
+    &__txt{
+      @extend .fz-18;
+      color: #ffffff;
+      font-family: $font-primary-Bold;
+      line-height: 1.5;
+    }
+  }
+  &__divider{
+    border-color: #ffffff !important;
+    @include media-breakpoint-up('m'){
+      margin-top: 39px !important;
+      margin-bottom: 15px !important;
+    }
+  }
+  &__copyright{
+    @extend .fz-16;
+    line-height: 1.5;
+  }
+}

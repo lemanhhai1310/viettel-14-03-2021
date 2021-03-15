@@ -10,3 +10,22 @@
   font-weight:normal;
   font-style:normal;
 }
+/**
+ * --------------------------------------------------------------------
+ * FS PF BeauSans Pro
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'FS PF BeauSans Pro Regular';
+  font-display: auto;
+  src:local('FS PF BeauSans Pro Regular'), url('fonts/font/PFBeauSansPro-Regular.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'FS PF BeauSans Pro Bold';
+  font-display: auto;
+  src:local('FS PF BeauSans Pro Bold'), url('fonts/font/PFBeauSansPro-Bold.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
