@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70b5e67f-08d9-453e-aadd-36d2fb8c5393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/slider/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/vechungtoi/image64.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../base/scss/components/_keyframes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" afterDir="false" />
@@ -24,13 +21,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/components/_margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_margin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/scss/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/scss/components/_fontsize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/scss/components/_fontsize.scss" afterDir="false" />
@@ -93,7 +87,7 @@
       <workItem from="1615718206118" duration="743000" />
       <workItem from="1615750534440" duration="1688000" />
       <workItem from="1615777000185" duration="4791000" />
-      <workItem from="1615785031038" duration="10065000" />
+      <workItem from="1615785031038" duration="12630000" />
     </task>
     <servers />
   </component>
@@ -120,5 +114,9 @@
       <screen x="62" y="25" width="3378" height="1415" />
     </state>
     <state x="1460" y="467" key="ftp.server.browser/62.25.3378.1415@62.25.3378.1415" timestamp="1615718259740" />
+    <state x="2545" y="260" width="670" height="676" key="search.everywhere.popup" timestamp="1615797959140">
+      <screen x="1920" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2545" y="260" width="670" height="676" key="search.everywhere.popup/50.25.1870.1055/1920.25.1920.1055@1920.25.1920.1055" timestamp="1615797959140" />
   </component>
 </project>

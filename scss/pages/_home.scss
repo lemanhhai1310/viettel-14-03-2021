@@ -112,4 +112,44 @@
       }
     }
   }
+  &__vechungtoi{
+    .uk-container-expand-right{
+      @include media-breakpoint-up('m'){
+        padding-right: 0;
+        max-width: calc(50% + (1200px / 2));
+      }
+    }
+    &__box2{
+      $w: 625px;
+      width: calc(#{$w} - 119px);
+    }
+    &__box1{
+      padding: 20px;
+      @include media-breakpoint-up('m'){
+        padding: 40px;
+        width: 625px;
+      }
+      background: #FFFFFF;
+      /* 1 */
+
+      box-shadow: 0px 10px 30px rgba(234, 10, 42, 0.2);
+      border-radius: 20px;
+      &__title{
+        margin-bottom: 15px !important;
+        @extend .fz-24;
+        line-height: (36/24);
+        font-family: $font-secondary-Bold;
+        color: #000000;
+      }
+      &__desc{
+        @extend .fz-16;
+        line-height: (24/16);
+        color: #000000;
+        margin-bottom: 20px !important;
+        @include media-breakpoint-up('m'){
+          margin-bottom: 40px !important;
+        }
+      }
+    }
+  }
 }

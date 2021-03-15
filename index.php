@@ -33,6 +33,35 @@
     </div>
 </div>
 <!--/Slider-->
+
+<!--Về chúng tôi-->
+<div class="mb-40 mb-72-m home__vechungtoi">
+    <div class="uk-container uk-container-expand-right">
+        <div class="uk-flex-middle uk-position-relative" uk-grid>
+            <div class="uk-width-auto uk-position-z-index" uk-toggle="cls: uk-position-center-left; mode: media; media: @m">
+                <div class="home__vechungtoi__box1 uk-card uk-card-default uk-card-body">
+                    <div class="mb-15 mb-20-s mb-40-m">
+                        <h2 class="uk-h2 uk-margin-remove home__title uk-text-uppercase">Về chúng tôi</h2>
+                    </div>
+                    <h4 class="uk-h4 home__vechungtoi__box1__title uk-margin-remove">Tổng Công ty Cổ phần Đầu tư quốc tế Viettel</h4>
+                    <p class="uk-margin-remove home__vechungtoi__box1__desc">Năm 2006, Viettel quyết định mở rộng kinh doanh ra nước ngoài với mục tiêu tìm kiếm thị trường tiềm năng. Công ty Cổ phần Đầu tư quốc tế Viettel (nay là Tổng Công ty Đầu tư quốc tế Viettel) được thành lập tháng 10 năm 2006 với tầm nhìn và sứ mệnh đưa Viettel trở thành tập đoàn viễn thông lớn mạnh tầm quốc tế.</p>
+                    <button type="button" class="uk-button footer__boxLienhe__btn uk-button-secondary uk-border-pill">Xem thêm</button>
+                </div>
+            </div>
+            <div class="uk-width-auto home__vechungtoi__box2 uk-visible@m">
+
+            </div>
+            <div class="uk-width-expand">
+                <div class="uk-cover-container">
+                    <img src="images/vechungtoi/image64.png" alt="" uk-cover>
+                    <canvas width="789" height="670"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Về chúng tôi-->
+
 <div class="mb-40 mb-113-m">
     <div class="uk-container">
         <!--Biểu đồ cổ phiếu-->
