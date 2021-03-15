@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70b5e67f-08d9-453e-aadd-36d2fb8c5393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/vechungtoi/image64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/followers-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/group1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/laptop1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/station1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/usb-cable1.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../base/scss/components/_keyframes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" afterDir="false" />
@@ -19,8 +23,8 @@
       <change beforePath="$PROJECT_DIR$/../hopgiaygiare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hopgiaygiare/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hopgiaygiare/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hopgiaygiare/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_fontsize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_fontsize.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/components/_margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_margin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -87,7 +91,8 @@
       <workItem from="1615718206118" duration="743000" />
       <workItem from="1615750534440" duration="1688000" />
       <workItem from="1615777000185" duration="4791000" />
-      <workItem from="1615785031038" duration="12630000" />
+      <workItem from="1615785031038" duration="15966000" />
+      <workItem from="1615815308681" duration="132000" />
     </task>
     <servers />
   </component>

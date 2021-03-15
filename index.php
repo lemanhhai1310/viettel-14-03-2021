@@ -64,6 +64,64 @@
 
 <div class="mb-40 mb-113-m">
     <div class="uk-container">
+        <div class="uk-child-width-1-2 uk-flex-center uk-child-width-1-5@m mb-160-m" uk-grid>
+            <?php
+            $data = array(
+                array(
+                    'src' => 'images/icon/laptop1.png',
+                    'txt' => 'Thị trường',
+                    'txt1' => 'Thị trường',
+                    'number' => 10,
+                ),
+                array(
+                    'src' => 'images/icon/group1.png',
+                    'txt' => 'Quy mô thị trường',
+                    'txt1' => 'Triệu dân',
+                    'number' => 270,
+                ),
+                array(
+                    'src' => 'images/icon/station1.png',
+                    'txt' => 'Trạm BTS',
+                    'txt1' => '',
+                    'number' => 5000,
+                ),
+                array(
+                    'src' => 'images/icon/usb-cable1.png',
+                    'txt' => 'Km cáp quang',
+                    'txt1' => '',
+                    'number' => 320000,
+                ),
+                array(
+                    'src' => 'images/icon/followers-2.png',
+                    'txt' => 'Thuê bao',
+                    'txt1' => '',
+                    'number' => 6,
+                ),
+            );
+            foreach ($data as $k => $v): ?>
+            <div>
+                <div class="uk-text-center">
+                    <span class="home__block1__box2__txt">0<?= $k+1 ?></span>
+                </div>
+                <div class="uk-text-center home__block1__box3">
+                    <div class="uk-cover-container home__block1__box1 uk-display-inline-block uk-border-circle">
+                        <canvas width="156" height="156"></canvas>
+                        <div class="uk-position-cover uk-flex uk-flex-middle uk-flex-center">
+                            <div>
+                                <div class="home__block1__box1__bg">
+                                    <img src="<?= $v['src'] ?>" alt="">
+                                </div>
+                                <div class="home__block1__box1__txt"><?= $v['txt'] ?></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-text-center">
+                    <span class="home__block1__box4__txt1"><?= $v['number'] ?></span> <span class="home__block1__box4__txt2"><?= $v['txt1'] ?></span>
+                </div>
+            </div>
+            <?php endforeach; ?>
+        </div>
         <!--Biểu đồ cổ phiếu-->
         <div class="uk-card uk-card-default home__bieudocophieu__card1 mb-40 mb-101-m">
             <div class="uk-card-body">
