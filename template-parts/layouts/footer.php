@@ -1,11 +1,33 @@
-<footer class="footer uk-light uk-position-relative uk-background-norepeat uk-background-cover uk-background-center-center" data-src="images/footer/bg1.jpeg" uk-img>
+<footer class="footer uk-position-relative uk-background-norepeat uk-background-cover uk-background-center-center" data-src="images/footer/bg1.jpeg" uk-img>
     <div class="footer__overlay uk-position-cover"></div>
     <div class="uk-section footer__section1 uk-position-relative">
         <div class="uk-container">
-            <div class="uk-card uk-card-default uk-card-body footer__card1 mb-30 mb-64-m">
-
+            <div class="uk-card uk-card-default uk-card-body footer__card1 mb-30 mb-64-m footer__boxLienhe__body">
+                <div class="uk-grid-15 uk-grid-96-m" uk-grid>
+                    <div class="uk-width-auto@m">
+                        <h2 class="uk-h2 uk-margin-remove home__title uk-text-center uk-text-left@m">Liên hệ</h2>
+                    </div>
+                    <div class="uk-width-expand">
+                        <form class="uk-grid-small uk-grid-48-m footer__boxLienhe__grid1" uk-grid>
+                            <div class="uk-width-1-2@s">
+                                <input class="uk-input uk-border-pill footer__boxLienhe__input" type="text" placeholder="*Họ và tên">
+                            </div>
+                            <div class="uk-width-1-2@s">
+                                <input class="uk-input uk-border-pill footer__boxLienhe__input" type="tel" placeholder="*Số điện thoại">
+                            </div>
+                            <div class="uk-width-1-2@s">
+                                <input class="uk-input uk-border-pill footer__boxLienhe__input" type="email" placeholder="*Địa chỉ email">
+                            </div>
+                            <div class="uk-width-1-2@s">
+                                <div class="uk-text-right">
+                                    <button type="button" class="uk-button footer__boxLienhe__btn uk-button-secondary uk-border-pill">Gửi</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="uk-grid-small uk-grid-128-m uk-flex-bottom" uk-grid>
+            <div class="uk-grid-small uk-grid-128-m uk-flex-bottom uk-light" uk-grid>
                 <div class="uk-width-2-5@m">
                     <figure class="mb-15 mb-35-m footer__boxLogo uk-text-center uk-text-left@m">
                         <img src="images/footer/logo.png" alt="">
@@ -73,14 +95,14 @@
                                         );
                                         foreach ($data as $k => $v): ?>
                                             <div>
-                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16" uk-grid>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
                                                     <div class="uk-width-auto">
                                                         <div class="footer__brand">
                                                             <img src="<?= $v['src'] ?>" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="uk-width-expand">
-                                                        <span class="footer__brand__txt"><?= $v['txt'] ?></span>
+                                                        <span class="footer__brand__txt"><a href=""><?= $v['txt'] ?></a></span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -114,14 +136,14 @@
                                         );
                                         foreach ($data as $k => $v): ?>
                                             <div>
-                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16" uk-grid>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
                                                     <div class="uk-width-auto">
                                                         <div class="footer__brand">
                                                             <img src="<?= $v['src'] ?>" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="uk-width-expand">
-                                                        <span class="footer__brand__txt"><?= $v['txt'] ?></span>
+                                                        <span class="footer__brand__txt"><a href=""><?= $v['txt'] ?></a></span>
                                                     </div>
                                                 </div>
                                             </div>

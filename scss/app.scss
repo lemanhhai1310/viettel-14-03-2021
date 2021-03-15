@@ -13,13 +13,6 @@
 @import 'base/helpers';
 @import 'base/uikits';
 
-@import 'layout/navigation';
-@import 'layout/grid';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/sidebar';
-@import 'layout/forms';
-
 @import 'components/grid';
 @import 'components/margin';
 @import 'components/buttons';
@@ -33,6 +26,13 @@
 @import 'components/modal';
 @import 'components/text';
 @import 'components/keyframes';
+
+@import 'layout/navigation';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/forms';
 
 @import 'pages/home';
 @import 'pages/about';

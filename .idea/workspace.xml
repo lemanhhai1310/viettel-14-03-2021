@@ -2,84 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70b5e67f-08d9-453e-aadd-36d2fb8c5393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Bbook.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Bbook.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Bbook.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Bbook.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-BbookItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-BbookItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-BbookItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-BbookItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-BlackItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-BlackItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-BlackItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-BoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-BoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-LightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-LightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-LightItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-SemiBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-SemiBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-SemiBoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-SemiBoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-SemiBoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Thin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Thin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-Thin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-ThinItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-ThinItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-ThinItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-XThin.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-XThin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-XThin.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-XThin.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-XThinItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-XThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-XThinItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/PFBeauSansPro-XThinItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/font/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/mang/UFONTS.COM_PFBEAUSANSPRO-BOLD.TTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/footer/Metfone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/footer/bg1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/footer/halotel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/footer/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/footer/lumitel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/footer/mytel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/footer/natcom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/footer/nexttel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/footer/telemor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/footer/unitel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/footer/viettel-global.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../base/scss/components/_keyframes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" afterDir="false" />
@@ -98,17 +20,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/abstracts/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/base/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/base/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/components/_fontsize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_fontsize.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/components/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_margin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/layout/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pages/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template-parts/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/layouts/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/scss/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../base/scss/components/_fontsize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/scss/components/_fontsize.scss" afterDir="false" />
@@ -171,6 +90,7 @@
       <workItem from="1615718206118" duration="743000" />
       <workItem from="1615750534440" duration="1688000" />
       <workItem from="1615777000185" duration="4791000" />
+      <workItem from="1615785031038" duration="1783000" />
     </task>
     <servers />
   </component>

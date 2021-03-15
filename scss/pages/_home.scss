@@ -1,0 +1,8 @@
+.home{
+  &__title{
+    @extend .fz-40;
+    color: #000 !important;
+    font-family: $font-primary-Bold;
+    line-height: 1.5;
+  }
+}

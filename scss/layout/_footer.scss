@@ -1,5 +1,43 @@
 .footer{
+  &__boxLienhe{
+    &__body{
+      padding: 15px 15px;
+      @include media-breakpoint-up('m'){
+        padding: 40px 80px;
+      }
+    }
+    &__input{
+      @extend .fz-14;
+      color: #333333;
+      @include media-breakpoint-up('m'){
+        height: 48px;
+      }
+      &::placeholder{
+        color: #333333;
+      }
+      border-color: #333333;
+    }
+    &__btn{
+      background: #EA0A2A;
+      @extend .fz-18;
+      font-family: $font-primary-Bold;
+      text-transform: inherit;
+      border-bottom-left-radius: 0;
+      @include media-breakpoint-up('m'){
+        line-height: 46px;
+        min-width: 152px;
+      }
+    }
+    &__grid1{
+      .uk-grid-margin{
+        @include media-breakpoint-up('m'){
+          margin-top: 25px !important;
+        }
+      }
+    }
+  }
   &__section1{
+    padding-bottom: 20px;
     @include media-breakpoint-up('m'){
       padding-top: 0 !important;
       padding-bottom: 40px !important;
@@ -56,6 +94,7 @@
         >a{
           @extend .fz-16;
           line-height: 1.5;
+          color: rgba(#fff,0.7);
         }
       }
     }
@@ -83,6 +122,13 @@
     }
   }
   &__brand{
+    border-radius: 10px;
+    .footer__brand__item:hover &{
+      box-shadow: (0px 0px 20px #EA0A2A);
+    }
+    &__item{
+
+    }
     img{
       $x: 42px;
       width: #{$x};
@@ -92,6 +138,12 @@
       color: #ffffff;
       font-family: $font-primary-Bold;
       line-height: 1.5;
+      .footer__brand__item:hover &{
+        text-shadow: 0px 0px 20px #EA0A2A;
+      }
+      a{
+        color: #ffffff;
+      }
     }
   }
   &__divider{
@@ -104,5 +156,6 @@
   &__copyright{
     @extend .fz-16;
     line-height: 1.5;
+    color: rgba(#fff,0.7);
   }
 }
