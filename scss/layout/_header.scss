@@ -1,0 +1,33 @@
+.header{
+  .uk-sticky-below &{
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+  }
+  &__top{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    &__boxSearch{
+      width: 157px !important;
+      .uk-icon{
+        svg{
+          opacity: 0;
+        }
+      }
+      &__input{
+        height: 32px !important;
+        border-color: #000000 !important;
+        padding-left: 10px !important;
+      }
+    }
+  }
+  .uk-navbar-nav{
+    >li{
+      >a{
+        min-height: 62px;
+        text-transform: inherit;
+        @extend .fz-18;
+        color: #000;
+      }
+    }
+  }
+}

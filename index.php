@@ -1,8 +1,75 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php $is_home = true; ?>
 <?php require "template-parts/layouts/header.php"; ?>
-<div class="uk-section">
+<!--Slider-->
+<div>
+    <div class="uk-container uk-padding-remove">
+        <div class="home__slider uk-overflow-hidden">
+            <div uk-slideshow="animation: push;ratio: 1224:535;">
+
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                    <ul class="uk-slideshow-items">
+                        <li>
+                            <img src="images/photo.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/dark.jpg" alt="" uk-cover>
+                        </li>
+                        <li>
+                            <img src="images/light.jpg" alt="" uk-cover>
+                        </li>
+                    </ul>
+
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+                </div>
+
+                <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Slider-->
+<div class="mb-40 mb-113-m">
     <div class="uk-container">
+        <!--Biểu đồ cổ phiếu-->
+        <div class="uk-card uk-card-default home__bieudocophieu__card1 mb-40 mb-101-m">
+            <div class="uk-card-body">
+                <div class="uk-flex-middle" uk-grid>
+                    <div class="uk-width-expand">
+                        <h2 class="uk-h2 uk-margin-remove home__title uk-text-uppercase">Biểu đồ cổ phiếu</h2>
+                    </div>
+                    <div class="uk-width-auto@m">
+                        <div class="uk-inline home__bieudocophieu__card1__box1">
+                            <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: calendar"></span>
+                            <input class="uk-input home__bieudocophieu__card1__box1__input" type="text" placeholder="Oct - Nov 2019">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <img src="images/chart.png" alt="">
+            </div>
+        </div>
+        <!--/Biểu đồ cổ phiếu-->
+
+        <!--Viettel trên Thế Giới-->
+        <div class="mb-15 mb-20-s mb-101-m">
+            <h2 class="uk-h2 uk-margin-remove home__title uk-text-uppercase uk-text-center">Viettel trên Thế Giới</h2>
+        </div>
+        <div class="">
+            <img class="uk-width-1-1" src="images/HugeGlobal.png" alt="">
+        </div>
+        <!--/Viettel trên Thế Giới-->
+    </div>
+</div>
+
+<div>
+    <div class="uk-container">
+        <!--Tin tức nổi bật-->
         <div class="mb-15 mb-20-s mb-59-m">
             <h2 class="uk-h2 uk-margin-remove home__title uk-text-uppercase uk-text-center">Tin tức nổi bật</h2>
         </div>
@@ -18,27 +85,27 @@
                     ),
                 );
                 foreach ($data as $k => $v): ?>
-                <div class="uk-cover-container home__tintucnoibat__box1">
-                    <img src="<?= $v['src'] ?>" alt="" uk-cover>
-                    <canvas width="960" height="960"></canvas>
-                    <div class="uk-position-cover home__tintucnoibat__box1__overlay"></div>
-                    <div class="uk-position-bottom home__tintucnoibat__box1__body">
-                        <div class="uk-grid-10 uk-grid-20-m" uk-grid>
-                            <div class="uk-width-auto">
-                                <div class="home__tintucnoibat__box2__boxdate">
-                                    <div class="uk-text-center">
-                                        <div class="home__tintucnoibat__box2__boxdate__txt1">01</div>
-                                        <div class="home__tintucnoibat__box2__boxdate__txt2">03.2021</div>
+                    <div class="uk-cover-container home__tintucnoibat__box1">
+                        <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                        <canvas width="960" height="960"></canvas>
+                        <div class="uk-position-cover home__tintucnoibat__box1__overlay"></div>
+                        <div class="uk-position-bottom home__tintucnoibat__box1__body">
+                            <div class="uk-grid-10 uk-grid-20-m" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="home__tintucnoibat__box2__boxdate">
+                                        <div class="uk-text-center">
+                                            <div class="home__tintucnoibat__box2__boxdate__txt1">01</div>
+                                            <div class="home__tintucnoibat__box2__boxdate__txt2">03.2021</div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="uk-width-expand">
-                                <h5 class="home__tintucnoibat__box2__title home__tintucnoibat__box2__title--c1 uk-h5 mb-15 mb-24-m"><a href=""><?= $v['txt'] ?></a></h5>
-                                <p class="home__tintucnoibat__box2__desc home__tintucnoibat__box2__desc--c1 uk-margin-remove"><?= $v['desc'] ?></p>
+                                <div class="uk-width-expand">
+                                    <h5 class="home__tintucnoibat__box2__title home__tintucnoibat__box2__title--c1 uk-h5 mb-15 mb-24-m"><a href=""><?= $v['txt'] ?></a></h5>
+                                    <p class="home__tintucnoibat__box2__desc home__tintucnoibat__box2__desc--c1 uk-margin-remove"><?= $v['desc'] ?></p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 <?php endforeach; ?>
             </div>
             <div>
@@ -63,32 +130,35 @@
                         ),
                     );
                     foreach ($data as $k => $v): ?>
-                    <div class="uk-width-1-1">
-                        <div class="uk-grid-small uk-grid-48-m uk-flex-middle" uk-grid>
-                            <div class="uk-width-1-3 uk-width-auto@m">
-                                <div class="uk-position-relative">
-                                    <div class="uk-cover-container home__tintucnoibat__box2__img">
-                                        <img src="<?= $v['src'] ?>" alt="" uk-cover>
-                                        <canvas width="184" height="184"></canvas>
-                                    </div>
-                                    <div class="uk-position-top-right home__tintucnoibat__box2__boxdate home__tintucnoibat__box2__boxdate--c1">
-                                        <div class="uk-text-center">
-                                            <div class="home__tintucnoibat__box2__boxdate__txt1">01</div>
-                                            <div class="home__tintucnoibat__box2__boxdate__txt2">03.2021</div>
+                        <div class="uk-width-1-1">
+                            <div class="uk-grid-small uk-grid-48-m uk-flex-middle" uk-grid>
+                                <div class="uk-width-1-3 uk-width-auto@m">
+                                    <div class="uk-position-relative">
+                                        <div class="uk-cover-container home__tintucnoibat__box2__img">
+                                            <img src="<?= $v['src'] ?>" alt="" uk-cover>
+                                            <canvas width="184" height="184"></canvas>
+                                        </div>
+                                        <div class="uk-position-top-right home__tintucnoibat__box2__boxdate home__tintucnoibat__box2__boxdate--c1">
+                                            <div class="uk-text-center">
+                                                <div class="home__tintucnoibat__box2__boxdate__txt1">01</div>
+                                                <div class="home__tintucnoibat__box2__boxdate__txt2">03.2021</div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="uk-width-expand">
-                                <h5 class="home__tintucnoibat__box2__title uk-h5 mb-15 mb-31-m"><a href=""><?= $v['txt'] ?></a></h5>
-                                <p class="home__tintucnoibat__box2__desc uk-margin-remove"><?= $v['desc'] ?></p>
+                                <div class="uk-width-expand">
+                                    <h5 class="home__tintucnoibat__box2__title uk-h5 mb-15 mb-31-m"><a href=""><?= $v['txt'] ?></a></h5>
+                                    <p class="home__tintucnoibat__box2__desc uk-margin-remove"><?= $v['desc'] ?></p>
+                                </div>
                             </div>
                         </div>
-                    </div>
                     <?php endforeach; ?>
                 </div>
             </div>
         </div>
+        <!--/Tin tức nổi bật-->
+
+        <!--Thư viện-->
         <div class="mb-15 mb-20-s mb-54-m">
             <h2 class="uk-h2 uk-margin-remove home__title uk-text-uppercase">Thư viện</h2>
         </div>
@@ -132,6 +202,7 @@
                 </div>
             </div>
         </div>
+        <!--/Thư viện-->
     </div>
 </div>
 <?php require "template-parts/layouts/footer.php"; ?>

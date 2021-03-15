@@ -1,4 +1,13 @@
 .home{
+  &__slider{
+    .uk-slideshow-items{
+      > *{
+        @include media-breakpoint-up('m'){
+          border-radius: 50px 0px 49px 0;
+        }
+      }
+    }
+  }
   &__title{
     @extend .fz-40;
     color: #000 !important;
@@ -81,6 +90,25 @@
       border-radius: 16px;
       .uk-width-expand > &{
         border-radius: 20px;
+      }
+    }
+  }
+  &__bieudocophieu{
+    &__card1{
+      box-shadow: 0px 10px 20px rgba(221, 221, 221, 0.5);
+      border-radius: 24px;
+      &__box1{
+        width: 160px;
+        &__input{
+          border: 1px solid #E5E5E5;
+          box-sizing: border-box;
+          border-radius: 4px;
+          height: 32px;
+
+          letter-spacing: 0.25px;
+          @extend .fz-14;
+          color: #333333;
+        }
       }
     }
   }
