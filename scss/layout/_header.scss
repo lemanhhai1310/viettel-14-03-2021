@@ -25,24 +25,34 @@
           height: 28px;
           display: inline-block;
           border-radius: 50%;
+          .header__top__lang__check:checked + &{
+            background: url(images/lang/en.png);
+            right: 1px;
+          }
           background: url(images/lang/vi.png);
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center;
           top: 50%;
           transform: translateY(-50%);
-          left: 1px;
+          right: calc(100% - 28px - 1px);
+          transition: all 0.3s;
           position: absolute;
         }
         &:after{
+          .header__top__lang__check:checked + &{
+            content: attr(data-en);
+            left: 10px;
+          }
           content: attr(data-vi);
           top: 50%;
           transform: translateY(-50%);
           position: absolute;
-          right: 10px;
+          left: calc(100% - 28px);
           @extend .fz-14;
           line-height: (20/14);
           color: #0D100C;
+          transition: all 0.3s;
           font-family: $font-primary-Bold;
         }
       }
