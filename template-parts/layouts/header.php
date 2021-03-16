@@ -8,14 +8,14 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="style.css?v=<?php echo(time()) ?>">
     <!--JS-->
     <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit-icons.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
     <script src="js/app.js"></script>
 </head>
 <body class="<?= ($is_home) ? 'isHome' : '' ?>">
@@ -34,14 +34,12 @@
                             <div class="uk-section-xsmall header__top uk-visible@m">
                                 <div class="uk-flex-right@m uk-flex-middle uk-grid-12 uk-child-width-auto" uk-grid>
                                     <div>
-                                        <div class="uk-position-relative">
-                                            <label>
-                                                <input class="uk-radio" type="radio" name="radio2" checked>
-                                                <span>VN</span>
-                                            </label>
-                                            <label>
-                                                <input class="uk-radio" type="radio" name="radio2">
-                                                <span>EN</span>
+                                        <div class="uk-position-relative uk-flex uk-flex-middle">
+                                            <label class="header__top__lang uk-flex-inline uk-flex-middle">
+                                                <input class="uk-checkbox header__top__lang__check uk-hidden" type="checkbox">
+                                                <span class="header__top__lang__txt uk-border-pill" data-vi="VN" data-en="EN">
+
+                                                </span>
                                             </label>
                                         </div>
                                     </div>

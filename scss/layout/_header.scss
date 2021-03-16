@@ -6,6 +6,47 @@
   &__top{
     padding-top: 15px;
     padding-bottom: 15px;
+    &__lang{
+      &__check{
+
+      }
+      &__txt{
+        display: inline-block;
+        width: 68px;
+        height: 32px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        position: relative;
+        cursor: pointer;
+        &:before{
+          content: "";
+          width: 28px;
+          height: 28px;
+          display: inline-block;
+          border-radius: 50%;
+          background: url(images/lang/vi.png);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 1px;
+          position: absolute;
+        }
+        &:after{
+          content: attr(data-vi);
+          top: 50%;
+          transform: translateY(-50%);
+          position: absolute;
+          right: 10px;
+          @extend .fz-14;
+          line-height: (20/14);
+          color: #0D100C;
+          font-family: $font-primary-Bold;
+        }
+      }
+    }
     &__boxSearch{
       width: 157px !important;
       .uk-icon{
