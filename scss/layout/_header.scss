@@ -73,11 +73,18 @@
   }
   .uk-navbar-nav{
     >li{
+      &.uk-active{
+        >a{
+          font-family: $font-primary-Bold;
+          color: #EA0A2A;
+        }
+      }
       >a{
         min-height: 62px;
         text-transform: inherit;
         @extend .fz-18;
         color: #000;
+        font-family: $font-primary;
       }
     }
   }
