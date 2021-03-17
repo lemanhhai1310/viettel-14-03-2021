@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Viettel Global - Tin tuc detail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css?v=1615956934">
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body class="isHome">
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+     attribution=setup_tool
+     page_id="2428809380682169"
+     logged_in_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi"
+     logged_out_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi">
+</div>
+<script>
+  defer(function() {
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v5.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  }, 5000);
+</script><section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
+    <div uk-sticky="top: 100vh;animation: uk-animation-slide-top;">
+        <header class="header">
+            <div class="uk-container uk-padding-remove">
+                <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                    <div class="uk-navbar-left">
+                        <a href="." class="uk-navbar-item uk-logo"><img src="images/logo.png" alt=""></a>
+                    </div>
+
+                    <div class="uk-navbar-right">
+                        <div class="uk-width-1-1">
+                            <div class="uk-section-xsmall header__top uk-visible@m">
+                                <div class="uk-flex-right@m uk-flex-middle uk-grid-12 uk-child-width-auto" uk-grid>
+                                    <div>
+                                        <div class="uk-position-relative uk-flex uk-flex-middle">
+                                            <label class="header__top__lang uk-flex-inline uk-flex-middle">
+                                                <input class="uk-checkbox header__top__lang__check uk-hidden" type="checkbox">
+                                                <span class="header__top__lang__txt uk-border-pill" data-vi="VN" data-en="EN">
+
+                                                </span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <form class="uk-search uk-search-default header__top__boxSearch">
+                                            <span class="uk-search-icon-flip uk-background-norepeat uk-background-center-center" uk-search-icon data-src="images/search.png" uk-img></span>
+                                            <input class="uk-search-input uk-border-pill header__top__boxSearch__input" type="search" placeholder="">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="uk-navbar-nav uk-visible@m">
+                                <li class="uk-active"><a href="#">Trang chủ</a></li>
+                                <li><a href="#">Về Viettel Global</a></li>
+                                <li>
+                                    <a href="#">Nhà đầu tư</a>
+                                    <div class="uk-navbar-dropdown">
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">Công bố thông tin</a></li>
+                                            <li><a href="#">Báo cáo tài chính</a></li>
+                                            <li><a href="#">Thông tin cổ phiếu</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="news.php">Tin tức</a></li>
+                                <li><a href="#">Tuyển dụng</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+        </header>
+    </div><!--Slider-->
+    <div>
+        <div class="uk-container uk-padding-remove">
+            <div class="home__slider uk-overflow-hidden">
+                <div uk-slideshow="animation: push;ratio: 1224:535;min-height: 300;">
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slideshow-items">
+                            <li>
+                                <img src="images/news/image72.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img src="images/photo.jpg" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img src="images/dark.jpg" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img src="images/light.jpg" alt="" uk-cover>
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+                    </div>
+
+                    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Slider-->
+
+    <div class="uk-section news-detail__section">
+        <div class="uk-container">
+            <div class="uk-grid-medium uk-grid-56-m" uk-grid>
+                <div class="uk-width-expand">
+                    <div class="mb-20 mb-27-m">
+                        <h1 class="uk-h1 home__title uk-margin-remove">Biên lợi nhuận gộp Quý II/2018 của Viettel Global đạt 29,9% cao nhất 4 năm gần đây</h1>
+                    </div>
+                    <div class="mb-30 mb-58-m news-detail__date">post 29.09.2018 of VTG TRÊN BÁO CHÍ</div>
+                    <article class="uk-article news-detail__article mb-20 mb-40-m">
+                        <p>Thị trường châu Phi gồm các quốc gia Cameroon, Tanzania, Mozambique và Burudi đóng góp chính vào tổng doanh thu của Viettel Global.</p>
+                        <p>Tổng CTCP Đầu tư Quốc tế Viettel vừa công bố kết quả kinh doanh hợp nhất 6 tháng đầu năm với tổng doanh thu hợp nhất đạt 8.003 tỷ đồng.</p>
+                        <p>Tổng doanh thu kinh doanh của các thị trường nước ngoài tăng gần 500 tỷ (7%) lên 7.717 tỷ đồng. Thị trường ở cả 3 châu lục của Viettel Global đều ghi nhận doanh thu tăng trưởng: châu Phi và Mỹ Latin cùng tăng trưởng gần 10%,còn Đông Nam Á, mặc dù các thị trường đã bão hòa nhưng vẫn đạt tăng trưởng 3%.</p>
+                        <p>Thị trường châu Phi gồm các quốc gia Cameroon, Tanzania, Mozambique và Burudi đóng góp chính vào tổng doanh thu với 3.625 tỷ đồng. Tiếp đến là Đông Nam Á gồm Campuchia và Đông Timor đạt gần 3.000 tỷ đồng. Khu vực Mỹ Latin với duy nhất Haiti đạt gần 1.100 tỷ.</p>
+                        <figure>
+                            <img src="images/news/News/Rectangle13.png" alt="">
+                        </figure>
+                        <p>Doanh thu của thị trường Đông Nam Á không bao gồm công ty Star Telecom tại Lào và Mytel tại Myanmar do Viettel Global nắm giữ dưới 50% vốn tại 2 công ty này, vì chỉ ghi nhận là công ty liên kết.</p>
+                        <p>Bên cạnh đó, mạng Bitel tại Peru cũng không hợp nhất vào kết quả kinh doanh của Viettel Global do công ty này được đầu tư trực tiếp bởi Tập đoàn Viettel.</p>
+                        <p>So với cùng kỳ năm trước, doanh thu của Viettel Global giảm 700 tỷ đồng, chủ yếu là do giảm hoạt động kinh doanh thiết bị của công ty mẹ như chủ trương đã trình Đại hội đồng cổ đông thường niên. Do giảm doanh thu kinh doanh thiết bị có tỷ suất lợi nhuận thấp nên dù doanh thu giảm nhưng lãi gộp vẫn tăng vọt từ 1.694 tỷ lên 2.119 tỷ đồng, tăng 25% so với nửa đầu năm 2017. Biên lợi nhuận gộp qua đó tăng từ 19,4% lên 26,5%.</p>
+                        <p>Riêng trong quý 2/2018, Viettel Global đạt 4.060 tỷ doanh thu và 1.214 tỷ đồng lợi nhuận gộp, tương ứng biên lợi nhuận 29,9% - mức cao nhất trong 4 năm trở lại đây.</p>
+                        <p>Tính đến cuối tháng 6/2018, Viettel đã hoàn vốn đầu tư tại các thị trường là Lào, Campuchia, Đông Timor và đứng số 1 tại thị trường về mạng lưới viễn thông; với các thị trường này, Tập đoàn Viettel đã thu về gấp 4 - 5 lần giá trị vốn đầu tư.</p>
+                        <p>Đặc biệt, trong số 9 thị trường quốc tế của Viettel, Myanmar (khai trương ngày 9/6/2018) là thị trường lớn nhất và được kỳ vọng nhất trong năm 2018 về tăng trưởng.Việc thị trường Myanmar vẫn còn lỗ kế hoạch khi mới đi vào hoạt động dẫn đến lợi nhuận trước thuế hợp nhất của 6 tháng đầu năm 2018 âm 16 tỷ đồng.</p>
+                        <p>Nửa đầu năm 2017, do có thêm khoản thu nhập bất thường hơn 600 tỷ đồng từ lãi tỷ giá nên Viettel Global đạt 652 tỷ đồng lợi nhuận trước thuế. Nửa đầu năm 2018, lãi chênh lệch tỷ giá chỉ còn hơn 80 tỷ đồng. Để bù đắp lại, Viettel Global đã tiết giảm 250 tỷ đồng chi phí bán hàng và chi phí quản lý so với cùng kỳ.</p>
+                        <p>Cổ phiếu VGI của Viettel Global bắt đầu giao dịch trên sàn Upcom kể từ 25/9/2018. Công ty hiện có vốn điều lệ 22.438 tỷ đồng và tập đoàn Viettel đang sở hữu 98,68% vốn. Cổ phiếu VGI chốt phiên 28/9 tại mức giá 28.200 đồng - tăng gần gấp đôi so với giá tham chiếu chào sàn là 15.000 đồng.</p>
+                        <p>Nguồn: Báo CafeF.vn</p>
+                    </article>
+                    <div class="news-detail__boxshare">
+                        <div class="uk-child-width-auto uk-flex-middle uk-grid-small uk-grid-31-m" uk-grid>
+                            <div>
+                                <span class="news-detail__boxshare__txt">share:</span>
+                            </div>
+                            <div>
+                                <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                                <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                                <a href="" class="uk-icon-button" uk-icon="youtube"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-3@m">
+                    <div class="uk-margin news-detail__margin">
+                        <form class="uk-search uk-search-default news-detail__boxsearch uk-width-1-1">
+                            <span class="uk-search-icon-flip uk-background-norepeat uk-background-center-center" uk-search-icon data-src="images/news/News/Group.png" uk-img></span>
+                            <input class="uk-search-input uk-form-large" type="search" placeholder="Tìm kiếm bài viết">
+                        </form>
+                    </div>
+                    <div class="uk-margin news-detail__margin">
+                        <div class="uk-card uk-card-default uk-card-body news-detail__card">
+                            <h4 class="uk-h4 uk-text-uppercase news-detail__card__title">Tin nổi bật</h4>
+                            <div>
+                                <div class="news-detail__card__item">
+                                    <div class="uk-grid-small uk-grid-16-m" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-cover-container news-detail__card__bg">
+                                                <img src="https://znews-photo.zadn.vn/w960/Uploaded/aobohun/2021_03_15/tphcmzing_5_.jpg" alt="" uk-cover>
+                                                <canvas width="108" height="108"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <h5 class="uk-h5 news-detail__card__txt"><a href="">Lorem ipsum dolor sit amet, consecte bing elit, sed do eiusmod tempor.</a></h5>
+                                            <div class="uk-grid-8 uk-flex-middle" uk-grid>
+                                                <div>
+                                                    <img src="images/news/News/.fas.fa-clock.png" alt="">
+                                                </div>
+                                                <div>
+                                                    <span class="news-detail__card__txt1">Dec 12, 2019</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-detail__card__item">
+                                    <div class="uk-grid-small uk-grid-16-m" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-cover-container news-detail__card__bg">
+                                                <img src="https://znews-photo.zadn.vn/w480/Uploaded/iutmtn/2021_03_16/thutuongcaing_42_.jpg" alt="" uk-cover>
+                                                <canvas width="108" height="108"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <h5 class="uk-h5 news-detail__card__txt"><a href="">Lorem ipsum dolor sit amet, consecte bing elit, sed do eiusmod tempor.</a></h5>
+                                            <div class="uk-grid-8 uk-flex-middle" uk-grid>
+                                                <div>
+                                                    <img src="images/news/News/.fas.fa-clock.png" alt="">
+                                                </div>
+                                                <div>
+                                                    <span class="news-detail__card__txt1">Dec 12, 2019</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-detail__card__item">
+                                    <div class="uk-grid-small uk-grid-16-m" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-cover-container news-detail__card__bg">
+                                                <img src="https://znews-photo.zadn.vn/w480/Uploaded/oplukaa/2021_03_17/Mr_nguyen.jpg" alt="" uk-cover>
+                                                <canvas width="108" height="108"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <h5 class="uk-h5 news-detail__card__txt"><a href="">Lorem ipsum dolor sit amet, consecte bing elit, sed do eiusmod tempor.</a></h5>
+                                            <div class="uk-grid-8 uk-flex-middle" uk-grid>
+                                                <div>
+                                                    <img src="images/news/News/.fas.fa-clock.png" alt="">
+                                                </div>
+                                                <div>
+                                                    <span class="news-detail__card__txt1">Dec 12, 2019</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__height"></div>
+    <footer class="footer uk-position-relative uk-background-norepeat uk-background-cover uk-background-center-center" data-src="images/footer/bg1.jpeg" uk-img>
+        <div class="footer__overlay uk-position-cover"></div>
+        <div class="uk-section footer__section1 uk-position-relative">
+            <div class="uk-container">
+                <div class="uk-card uk-card-default uk-card-body footer__card1 mb-30 mb-64-m footer__boxLienhe__body">
+                    <div class="uk-grid-15 uk-grid-96-m" uk-grid>
+                        <div class="uk-width-auto@m">
+                            <h2 class="uk-h2 uk-margin-remove home__title uk-text-center uk-text-left@m">Liên hệ</h2>
+                        </div>
+                        <div class="uk-width-expand">
+                            <form class="uk-grid-small uk-grid-48-m footer__boxLienhe__grid1" uk-grid>
+                                <div class="uk-width-1-2@s">
+                                    <input class="uk-input uk-border-pill footer__boxLienhe__input" type="text" placeholder="*Họ và tên">
+                                </div>
+                                <div class="uk-width-1-2@s">
+                                    <input class="uk-input uk-border-pill footer__boxLienhe__input" type="tel" placeholder="*Số điện thoại">
+                                </div>
+                                <div class="uk-width-1-2@s">
+                                    <input class="uk-input uk-border-pill footer__boxLienhe__input" type="email" placeholder="*Địa chỉ email">
+                                </div>
+                                <div class="uk-width-1-2@s">
+                                    <div class="uk-text-right">
+                                        <button type="button" class="uk-button footer__boxLienhe__btn uk-button-secondary uk-border-pill">Gửi</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-grid-small uk-grid-128-m uk-flex-bottom uk-light" uk-grid>
+                    <div class="uk-width-2-5@m">
+                        <figure class="mb-15 mb-35-m footer__boxLogo uk-text-center uk-text-left@m">
+                            <img src="images/footer/logo.png" alt="">
+                        </figure>
+                        <div class="mb-20 mb-40-m footer__boxDiachi">
+                            <div class="footer__boxDiachi__name">TỔNG CÔNG TY CP ĐẦU TƯ QUỐC TẾ VIETTEL</div>
+                            <div class="footer__boxDiachi__desc">Tầng 39 Tòa nhà Keangnam Landmark, lô E6, khu đô thị mới Cầu Giấy, Phường Mễ Trì, Nam Từ Liêm, Hà Nội</div>
+                        </div>
+                        <div class="footer__boxLienket">
+                            <h4 class="uk-h4 footer__boxLienket__title mb-15 mb-20-m">Liên kết website</h4>
+                            <ul class="uk-list footer__boxLienket__list">
+                                <li><a href="">Tập đoàn Viễn thông Quân đội Viettel</a></li>
+                                <li><a href="">Tổng công ty Viễn thông Viettel</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand">
+                        <div uk-grid>
+                            <div class="uk-width-1-3@m">
+                                <h3 class="uk-h3 footer__title mb-20 mb-45-m">Liên kết</h3>
+                                <ul class="uk-list footer__menu">
+                                    <li><a href="">Giới thiệu</a></li>
+                                    <li><a href="">Quan hệ cổ đông</a></li>
+                                    <li><a href="">Thị trường</a></li>
+                                    <li><a href="">Tin tức</a></li>
+                                    <li><a href="">Thư viện</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-expand">
+                                <div class="uk-child-width-auto mb-20 mb-39-m uk-flex-middle uk-flex-center uk-grid-16" uk-grid>
+                                    <div>
+                                        <div class="footer__brand">
+                                            <img src="images/footer/viettel-global.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="footer__boxLienket__title">Viettel Global</span>
+                                    </div>
+                                </div>
+                                <div class="uk-flex-center" uk-grid>
+                                    <div class="uk-width-1-2 uk-width-2-5@m">
+                                        <div class="uk-child-width-1-1@m uk-grid-small uk-grid-20-m" uk-grid>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/viettel-global.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Bitel</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/mytel.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Mytel</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/halotel.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Halotel</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/natcom.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Natcom</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/lumitel.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Lumitel</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-1-2 uk-width-2-5@m">
+                                        <div class="uk-child-width-1-1@m uk-grid-small uk-grid-20-m" uk-grid>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/nexttel.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Nexttel</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/Metfone.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Metfone</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/telemor.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Telemor</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/viettel-global.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Movitel</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/unitel.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Unitel</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="footer__divider">
+                <div class="uk-text-center">
+                    <span class="footer__copyright">@Viettel Global</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+</body>
+</html>

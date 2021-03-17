@@ -11,7 +11,7 @@
 
                     <ul class="uk-slideshow-items">
                         <li>
-                            <img src="images/slider/image1.png" alt="" uk-cover>
+                            <img src="images/news/image72.png" alt="" uk-cover>
                         </li>
                         <li>
                             <img src="images/photo.jpg" alt="" uk-cover>
@@ -78,7 +78,7 @@
                                     </div>
                                 </div>
                                 <div class="uk-width-expand">
-                                    <h5 class="home__tintucnoibat__box2__title home__tintucnoibat__box2__title--c1 uk-h5 mb-15 mb-24-m"><a href=""><?= $v['txt'] ?></a></h5>
+                                    <h5 class="home__tintucnoibat__box2__title home__tintucnoibat__box2__title--c1 uk-h5 mb-15 mb-24-m"><a href="news-detail.php"><?= $v['txt'] ?></a></h5>
                                     <p class="home__tintucnoibat__box2__desc home__tintucnoibat__box2__desc--c1 uk-margin-remove"><?= $v['desc'] ?></p>
                                 </div>
                             </div>
@@ -125,7 +125,7 @@
                                     </div>
                                 </div>
                                 <div class="uk-width-expand">
-                                    <h5 class="home__tintucnoibat__box2__title uk-h5 mb-15 mb-31-m"><a href=""><?= $v['txt'] ?></a></h5>
+                                    <h5 class="home__tintucnoibat__box2__title uk-h5 mb-15 mb-31-m"><a href="news-detail.php"><?= $v['txt'] ?></a></h5>
                                     <p class="home__tintucnoibat__box2__desc uk-margin-remove"><?= $v['desc'] ?></p>
                                 </div>
                             </div>

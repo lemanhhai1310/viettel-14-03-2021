@@ -1,0 +1,113 @@
+.news-detail{
+  &__section{
+
+  }
+  &__date{
+    @extend .fz-24;
+    line-height: 1.5;
+    color: #000;
+    font-family: $font-primary;
+  }
+  &__article{
+    p{
+      @extend .fz-18;
+      color: #0D100C;
+      line-height: 1.5;
+      font-family: $font-primary;
+    }
+    img{
+      width: 100%;
+    }
+  }
+  &__boxsearch{
+    .uk-icon{
+      svg{
+        opacity: 0;
+      }
+    }
+    .uk-search-input{
+      @include media-breakpoint-up('m'){
+        height: 72px !important;
+      }
+      border-color: #828282;
+      box-sizing: border-box;
+      border-radius: 20px;
+      @extend .fz-18;
+      padding-left: 21px !important;
+    }
+  }
+  &__card{
+    box-shadow: 0px 10px 20px rgba(221, 221, 221, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    @include media-breakpoint-up('m'){
+      padding: 24px;
+    }
+    &__title{
+      @extend .fz-24;
+      color: #0D100C;
+      line-height: (40/24);
+      font-family: $font-primary-Bold;
+      margin-bottom: 27px;
+    }
+    &__bg{
+      border-radius: 16px;
+    }
+    &__txt1{
+      @extend .fz-12;
+      line-height: (14/12);
+      color: #828282;
+    }
+    &__txt{
+      @extend .fz-18;
+      line-height: (25/18);
+      font-family: $font-primary-Bold;
+      margin-bottom: 0px;
+      a{
+        color: #000;
+      }
+    }
+    &__item{
+      &:nth-child(n+2){
+        margin-top: 15px;
+        @include media-breakpoint-up('m'){
+          margin-top: 32px;
+        }
+      }
+    }
+  }
+  &__margin{
+    &:nth-child(n+2){
+      @include media-breakpoint-up('m'){
+        margin-top: 51px !important;
+      }
+    }
+  }
+  &__boxshare{
+    border-top: 1px solid #BDBDBD;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 10px 0;
+    @include media-breakpoint-up('m'){
+      padding: 15px 0;
+    }
+    &__txt{
+      @extend .fz-16;
+      line-height: (19/16);
+      color: #000;
+      font-family: $font-primary;
+      text-transform: uppercase;
+    }
+    .uk-icon-button{
+      width: 28px;
+      height: 28px;
+      background-color: #E0E0E0;
+      color: #ffffff;
+      &:hover{
+        background-color: #EA0A2A;
+      }
+    }
+    .uk-margin-small-right{
+      margin-right: 7px !important;
+    }
+  }
+}
