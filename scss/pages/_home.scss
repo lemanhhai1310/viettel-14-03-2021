@@ -197,4 +197,144 @@
       }
     }
   }
+  &__giatri{
+    &__box1{
+      @include media-breakpoint-up('m'){
+        min-width: 520px;
+      }
+      &__img1{
+
+      }
+      &__img2{
+        bottom: -66px;
+      }
+    }
+    &__item{
+      &:nth-child(n+2){
+        margin-top: 15px;
+        @include media-breakpoint-up('m'){
+          margin-top: 29px;
+        }
+      }
+      &__bg{
+        position: relative;
+        min-width: 45px;
+        img{
+          position: relative;
+          z-index: 1;
+        }
+        &:before{
+          content: "";
+          position: absolute;
+          width: 28px;
+          height: 28px;
+          background: #FF4661;
+          border-radius: 50%;
+          right: 0;
+          bottom: 0;
+          z-index: 0;
+        }
+      }
+      &__title{
+        @extend .fz-20;
+        line-height: (28/20);
+        color: #333333;
+        margin-bottom: 3px;
+        font-family: $font-primary-Bold;
+      }
+      &__txt{
+        @extend .fz-16;
+        line-height: (19/16);
+        color: #4f4f4f;
+      }
+    }
+  }
+  &__lichsu{
+    &__nav{
+      width: 35px;
+      height: 35px;
+      @include media-breakpoint-up('m'){
+        width: 50px;
+        height: 50px;
+      }
+      background: #E0E1E0;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:hover{
+        background: #EA0A2A;
+      }
+      &.uk-invisible{
+        visibility: visible !important;
+        opacity: 0.6;
+      }
+    }
+    .uk-container-expand-right{
+      @include media-breakpoint-up('m'){
+        padding-right: 0;
+        max-width: calc(50% + (1200px / 2));
+      }
+    }
+    &__txt1{
+      line-height: 1.5;
+      @extend .fz-16;
+      color: #000;
+    }
+    &__txt2{
+      line-height: 1.5;
+      @extend .fz-14;
+      color: #000;
+    }
+    &__txt3{
+      line-height: 1.5;
+      @extend .fz-32;
+      font-family: $font-secondary-Bold;
+      color: #ffffff;
+    }
+    &__box1{
+      background: #EEEEEE;
+      min-height: 179px;
+      margin-left: -15px;
+      margin-right: -15px;
+      @include media-breakpoint-up('m'){
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+    &__box2{
+      padding: 15px;
+      @include media-breakpoint-up('m'){
+        padding: 32px;
+        padding-top: 58px;
+        padding-left: 32px;
+        padding-right: 0;
+      }
+    }
+    &__card{
+      box-shadow: 0px 10px 20px rgba(221, 221, 221, 0.5);
+      border-radius: 10px;
+      @include media-breakpoint-up('m'){
+        width: 196px !important;
+        min-height: 196px;
+      }
+      &__dc{
+
+      }
+      &__body{
+        @extend .home__lichsu__card__dc;
+        padding: 20px;
+        @include media-breakpoint-up('m'){
+          padding-top: 32px;
+        }
+      }
+      &__footer{
+        //@extend .home__lichsu__card__dc;
+        background: #EA0A2A;
+        border-radius: 0px 0px 10px 10px;
+        text-align: center;
+        padding: 0;
+      }
+    }
+  }
 }

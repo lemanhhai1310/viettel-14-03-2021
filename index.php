@@ -5,11 +5,14 @@
 <div>
     <div class="uk-container uk-padding-remove">
         <div class="home__slider uk-overflow-hidden">
-            <div uk-slideshow="animation: push;ratio: 1224:535;">
+            <div uk-slideshow="animation: push;ratio: 1224:535;min-height: 450;">
 
                 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
 
                     <ul class="uk-slideshow-items">
+                        <li>
+                            <img src="images/slider/image1.png" alt="" uk-cover>
+                        </li>
                         <li>
                             <img src="images/photo.jpg" alt="" uk-cover>
                         </li>
@@ -39,7 +42,7 @@
     <div class="uk-container uk-container-expand-right">
         <div class="uk-flex-middle uk-position-relative" uk-grid>
             <div class="uk-width-auto uk-position-z-index" uk-toggle="cls: uk-position-center-left; mode: media; media: @m">
-                <div class="home__vechungtoi__box1 uk-card uk-card-default uk-card-body">
+                <div class="home__vechungtoi__box1 uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-left-small;">
                     <div class="mb-15 mb-20-s mb-40-m">
                         <h2 class="uk-h2 uk-margin-remove home__title uk-text-uppercase">Về chúng tôi</h2>
                     </div>
@@ -62,9 +65,68 @@
 </div>
 <!--/Về chúng tôi-->
 
+<!--Giá trị cốt lõi-->
+<div class="mb-40 mb-97-m home__giatri">
+    <div class="uk-container">
+        <div class="uk-flex-middle uk-grid-81" uk-grid>
+            <div class="uk-width-auto@m">
+                <div class="home__giatri__box1 uk-position-relative">
+                    <div class="uk-width-4-5">
+                        <img src="images/giatri/img1.png" alt="">
+                    </div>
+                    <div class="uk-width-2-3 home__giatri__box1__img2 uk-position-bottom-right">
+                        <img src="images/giatri/img2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-expand">
+                <div class="mb-15 mb-20-s mb-47-m">
+                    <h2 class="uk-h2 uk-margin-remove home__title uk-text-uppercase">Giá trị cốt lõi</h2>
+                </div>
+                <div uk-scrollspy="target: > div; cls: uk-animation-slide-right; delay: 500">
+                    <?php
+                    $data = array(
+                        array(
+                            'src' => 'images/giatri/ico1.png',
+                            'title' => 'Tầm nhìn',
+                            'txt' => 'Sáng tạo để phục vụ con người – Caring Innovator',
+                        ),
+                        array(
+                            'src' => 'images/giatri/ico2.png',
+                            'title' => 'Sứ mệnh',
+                            'txt' => 'Aide et Action lives with the values of dignity, inclusion and integrity.Aide et Action ensures access to quality education for the most vulnerable and marginalised populations, especially children, so they can take charge of their own development and contribute to',
+                        ),
+                        array(
+                            'src' => 'images/giatri/ico3.png',
+                            'title' => 'Triết lý',
+                            'txt' => 'Aide et Action lives with the values of dignity, inclusion and integrity.Aide et Action ensures access to quality education for the most vulnerable and marginalised populations, especially children, so they can take charge of their own development and contribute to peaceful and sustainable world.',
+                        ),
+                    );
+                    foreach ($data as $k => $v): ?>
+                    <div class="home__giatri__item">
+                        <div class="uk-grid-small uk-grid-18-m" uk-grid>
+                            <div class="uk-width-auto">
+                                <div class="home__giatri__item__bg">
+                                    <img src="<?= $v['src'] ?>" alt="">
+                                </div>
+                            </div>
+                            <div class="uk-width-expand">
+                                <div class="home__giatri__item__title"><?= $v['title'] ?></div>
+                                <div class="home__giatri__item__txt"><?= $v['txt'] ?></div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Giá trị cốt lõi-->
+
 <div class="mb-40 mb-113-m">
     <div class="uk-container">
-        <div class="uk-child-width-1-2 uk-flex-center uk-child-width-1-5@m mb-160-m" uk-grid>
+        <div class="uk-child-width-1-2 uk-flex-center uk-child-width-1-5@m mb-160-m" uk-grid uk-scrollspy="target: > div; cls: uk-animation-slide-bottom-small; delay: 500">
             <?php
             $data = array(
                 array(
@@ -153,6 +215,93 @@
         <!--/Viettel trên Thế Giới-->
     </div>
 </div>
+
+<!--Lịch sử phát triển-->
+<div class="mb-40 mb-146-m home__lichsu">
+    <div class="uk-container uk-container-expand-right">
+        <div class="uk-grid-50-m" uk-grid uk-slider="finite: true;sets: true;">
+            <div class="uk-width-auto@s">
+                <div class="mb-15 mb-20-s mb-24-m">
+                    <h2 class="uk-h2 uk-margin-remove home__title uk-text-uppercase">Lịch sử phát triển</h2>
+                </div>
+                <div class="home__lichsu__txt1 mb-15 mb-20-s mb-24-m">Những cột mốc phát triển quan trọng của Viettel Global.</div>
+                <div class="uk-grid-small uk-grid-19-m" uk-grid>
+                    <div>
+                        <a class="home__lichsu__nav" href="#" uk-slider-item="previous"><img class="uk-responsive-height uk-responsive-width" src="images/Arrow-prev.png" alt=""></a>
+                    </div>
+                    <div>
+                        <a class="home__lichsu__nav" href="#" uk-slider-item="next"><img class="uk-responsive-height uk-responsive-width" src="images/Arrow-next.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-expand">
+                <div class="home__lichsu__box1 uk-position-relative">
+                    <div class="home__lichsu__box2" uk-toggle="cls: uk-position-top; mode: media; media: @m">
+                        <div class="uk-position-relative">
+
+                            <div class="uk-slider-container" uk-toggle="cls: uk-slider-container-offset; mode: media; media: @m">
+                                <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-auto@m uk-grid-small uk-grid-32-m uk-grid-match" uk-grid>
+                                    <?php
+                                    $data = array(
+                                        array(
+                                            'nam' => '2017',
+                                            'txt' => '2017: Chính thức nhận giấy phép đầu tư tại Myanmar',
+                                        ),
+                                        array(
+                                            'nam' => '2017',
+                                            'txt' => '12/2016: Kỷ niệm 10 năm Viettel đầu tư ra nước ngoài',
+                                        ),
+                                        array(
+                                            'nam' => '2017',
+                                            'txt' => '10/2015: Khai trương mạng viễn thông Halotel tại Tanzania.',
+                                        ),
+                                        array(
+                                            'nam' => '2017',
+                                            'txt' => '10/2014: Khai trương dịch vụ di động tại Peru.',
+                                        ),
+                                        array(
+                                            'nam' => '2017',
+                                            'txt' => '2017: Chính thức nhận giấy phép đầu tư tại Myanmar',
+                                        ),
+                                        array(
+                                            'nam' => '2017',
+                                            'txt' => '12/2016: Kỷ niệm 10 năm Viettel đầu tư ra nước ngoài',
+                                        ),
+                                        array(
+                                            'nam' => '2017',
+                                            'txt' => '10/2015: Khai trương mạng viễn thông Halotel tại Tanzania.',
+                                        ),
+                                        array(
+                                            'nam' => '2017',
+                                            'txt' => '10/2014: Khai trương dịch vụ di động tại Peru.',
+                                        ),
+                                    );
+                                    foreach ($data as $k => $v): ?>
+                                    <li>
+                                        <div class="uk-card home__lichsu__card uk-card-default uk-flex uk-flex-column">
+                                            <div class="uk-card-body home__lichsu__card__body uk-flex-1">
+                                                <div class="home__lichsu__txt2"><?= $v['txt'] ?></div>
+                                            </div>
+                                            <div class="uk-card-footer home__lichsu__card__footer">
+                                                <div class="home__lichsu__txt3"><?= $v['nam'] - $k ?></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <?php endforeach; ?>
+                                    <li class="uk-visible@m"></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-hidden@s"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Lịch sử phát triển-->
 
 <div>
     <div class="uk-container">

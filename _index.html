@@ -7,14 +7,14 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="style.css?v=1615799822">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css?v=1615950840">
     <!--JS-->
     <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.17/dist/js/uikit-icons.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
     <script src="js/app.js"></script>
 </head>
 <body class="isHome">
@@ -58,14 +58,12 @@
                             <div class="uk-section-xsmall header__top uk-visible@m">
                                 <div class="uk-flex-right@m uk-flex-middle uk-grid-12 uk-child-width-auto" uk-grid>
                                     <div>
-                                        <div class="uk-position-relative">
-                                            <label>
-                                                <input class="uk-radio" type="radio" name="radio2" checked>
-                                                <span>VN</span>
-                                            </label>
-                                            <label>
-                                                <input class="uk-radio" type="radio" name="radio2">
-                                                <span>EN</span>
+                                        <div class="uk-position-relative uk-flex uk-flex-middle">
+                                            <label class="header__top__lang uk-flex-inline uk-flex-middle">
+                                                <input class="uk-checkbox header__top__lang__check uk-hidden" type="checkbox">
+                                                <span class="header__top__lang__txt uk-border-pill" data-vi="VN" data-en="EN">
+
+                                                </span>
                                             </label>
                                         </div>
                                     </div>
@@ -103,11 +101,14 @@
     <div>
         <div class="uk-container uk-padding-remove">
             <div class="home__slider uk-overflow-hidden">
-                <div uk-slideshow="animation: push;ratio: 1224:535;">
+                <div uk-slideshow="animation: push;ratio: 1224:535;min-height: 450;">
 
                     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
 
                         <ul class="uk-slideshow-items">
+                            <li>
+                                <img src="images/slider/image1.png" alt="" uk-cover>
+                            </li>
                             <li>
                                 <img src="images/photo.jpg" alt="" uk-cover>
                             </li>
@@ -137,7 +138,7 @@
         <div class="uk-container uk-container-expand-right">
             <div class="uk-flex-middle uk-position-relative" uk-grid>
                 <div class="uk-width-auto uk-position-z-index" uk-toggle="cls: uk-position-center-left; mode: media; media: @m">
-                    <div class="home__vechungtoi__box1 uk-card uk-card-default uk-card-body">
+                    <div class="home__vechungtoi__box1 uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-left-small;">
                         <div class="mb-15 mb-20-s mb-40-m">
                             <h2 class="uk-h2 uk-margin-remove home__title uk-text-uppercase">Về chúng tôi</h2>
                         </div>
@@ -160,8 +161,180 @@
     </div>
     <!--/Về chúng tôi-->
 
+    <!--Giá trị cốt lõi-->
+    <div class="mb-40 mb-97-m home__giatri">
+        <div class="uk-container">
+            <div class="uk-flex-middle uk-grid-81" uk-grid>
+                <div class="uk-width-auto@m">
+                    <div class="home__giatri__box1 uk-position-relative">
+                        <div class="uk-width-4-5">
+                            <img src="images/giatri/img1.png" alt="">
+                        </div>
+                        <div class="uk-width-2-3 home__giatri__box1__img2 uk-position-bottom-right">
+                            <img src="images/giatri/img2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-expand">
+                    <div class="mb-15 mb-20-s mb-47-m">
+                        <h2 class="uk-h2 uk-margin-remove home__title uk-text-uppercase">Giá trị cốt lõi</h2>
+                    </div>
+                    <div uk-scrollspy="target: > div; cls: uk-animation-slide-right; delay: 500">
+                        <div class="home__giatri__item">
+                            <div class="uk-grid-small uk-grid-18-m" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="home__giatri__item__bg">
+                                        <img src="images/giatri/ico1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="home__giatri__item__title">Tầm nhìn</div>
+                                    <div class="home__giatri__item__txt">Sáng tạo để phục vụ con người – Caring Innovator</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__giatri__item">
+                            <div class="uk-grid-small uk-grid-18-m" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="home__giatri__item__bg">
+                                        <img src="images/giatri/ico2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="home__giatri__item__title">Sứ mệnh</div>
+                                    <div class="home__giatri__item__txt">Aide et Action lives with the values of dignity, inclusion and integrity.Aide et Action ensures access to quality education for the most vulnerable and marginalised populations, especially children, so they can take charge of their own development and contribute to</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__giatri__item">
+                            <div class="uk-grid-small uk-grid-18-m" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="home__giatri__item__bg">
+                                        <img src="images/giatri/ico3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="home__giatri__item__title">Triết lý</div>
+                                    <div class="home__giatri__item__txt">Aide et Action lives with the values of dignity, inclusion and integrity.Aide et Action ensures access to quality education for the most vulnerable and marginalised populations, especially children, so they can take charge of their own development and contribute to peaceful and sustainable world.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Giá trị cốt lõi-->
+
     <div class="mb-40 mb-113-m">
         <div class="uk-container">
+            <div class="uk-child-width-1-2 uk-flex-center uk-child-width-1-5@m mb-160-m" uk-grid uk-scrollspy="target: > div; cls: uk-animation-slide-bottom-small; delay: 500">
+                <div>
+                    <div class="uk-text-center">
+                        <span class="home__block1__box2__txt">01</span>
+                    </div>
+                    <div class="uk-text-center home__block1__box3">
+                        <div class="uk-cover-container home__block1__box1 uk-display-inline-block uk-border-circle">
+                            <canvas width="156" height="156"></canvas>
+                            <div class="uk-position-cover uk-flex uk-flex-middle uk-flex-center">
+                                <div>
+                                    <div class="home__block1__box1__bg">
+                                        <img src="images/icon/laptop1.png" alt="">
+                                    </div>
+                                    <div class="home__block1__box1__txt">Thị trường</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-text-center">
+                        <span class="home__block1__box4__txt1">10</span> <span class="home__block1__box4__txt2">Thị trường</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-text-center">
+                        <span class="home__block1__box2__txt">02</span>
+                    </div>
+                    <div class="uk-text-center home__block1__box3">
+                        <div class="uk-cover-container home__block1__box1 uk-display-inline-block uk-border-circle">
+                            <canvas width="156" height="156"></canvas>
+                            <div class="uk-position-cover uk-flex uk-flex-middle uk-flex-center">
+                                <div>
+                                    <div class="home__block1__box1__bg">
+                                        <img src="images/icon/group1.png" alt="">
+                                    </div>
+                                    <div class="home__block1__box1__txt">Quy mô thị trường</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-text-center">
+                        <span class="home__block1__box4__txt1">270</span> <span class="home__block1__box4__txt2">Triệu dân</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-text-center">
+                        <span class="home__block1__box2__txt">03</span>
+                    </div>
+                    <div class="uk-text-center home__block1__box3">
+                        <div class="uk-cover-container home__block1__box1 uk-display-inline-block uk-border-circle">
+                            <canvas width="156" height="156"></canvas>
+                            <div class="uk-position-cover uk-flex uk-flex-middle uk-flex-center">
+                                <div>
+                                    <div class="home__block1__box1__bg">
+                                        <img src="images/icon/station1.png" alt="">
+                                    </div>
+                                    <div class="home__block1__box1__txt">Trạm BTS</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-text-center">
+                        <span class="home__block1__box4__txt1">5000</span> <span class="home__block1__box4__txt2"></span>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-text-center">
+                        <span class="home__block1__box2__txt">04</span>
+                    </div>
+                    <div class="uk-text-center home__block1__box3">
+                        <div class="uk-cover-container home__block1__box1 uk-display-inline-block uk-border-circle">
+                            <canvas width="156" height="156"></canvas>
+                            <div class="uk-position-cover uk-flex uk-flex-middle uk-flex-center">
+                                <div>
+                                    <div class="home__block1__box1__bg">
+                                        <img src="images/icon/usb-cable1.png" alt="">
+                                    </div>
+                                    <div class="home__block1__box1__txt">Km cáp quang</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-text-center">
+                        <span class="home__block1__box4__txt1">320000</span> <span class="home__block1__box4__txt2"></span>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-text-center">
+                        <span class="home__block1__box2__txt">05</span>
+                    </div>
+                    <div class="uk-text-center home__block1__box3">
+                        <div class="uk-cover-container home__block1__box1 uk-display-inline-block uk-border-circle">
+                            <canvas width="156" height="156"></canvas>
+                            <div class="uk-position-cover uk-flex uk-flex-middle uk-flex-center">
+                                <div>
+                                    <div class="home__block1__box1__bg">
+                                        <img src="images/icon/followers-2.png" alt="">
+                                    </div>
+                                    <div class="home__block1__box1__txt">Thuê bao</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-text-center">
+                        <span class="home__block1__box4__txt1">6</span> <span class="home__block1__box4__txt2"></span>
+                    </div>
+                </div>
+            </div>
             <!--Biểu đồ cổ phiếu-->
             <div class="uk-card uk-card-default home__bieudocophieu__card1 mb-40 mb-101-m">
                 <div class="uk-card-body">
@@ -193,6 +366,126 @@
             <!--/Viettel trên Thế Giới-->
         </div>
     </div>
+
+    <!--Lịch sử phát triển-->
+    <div class="mb-40 mb-146-m home__lichsu">
+        <div class="uk-container uk-container-expand-right">
+            <div class="uk-grid-50-m" uk-grid uk-slider="finite: true;sets: true;">
+                <div class="uk-width-auto@s">
+                    <div class="mb-15 mb-20-s mb-24-m">
+                        <h2 class="uk-h2 uk-margin-remove home__title uk-text-uppercase">Lịch sử phát triển</h2>
+                    </div>
+                    <div class="home__lichsu__txt1 mb-15 mb-20-s mb-24-m">Những cột mốc phát triển quan trọng của Viettel Global.</div>
+                    <div class="uk-grid-small uk-grid-19-m" uk-grid>
+                        <div>
+                            <a class="home__lichsu__nav" href="#" uk-slider-item="previous"><img class="uk-responsive-height uk-responsive-width" src="images/Arrow-prev.png" alt=""></a>
+                        </div>
+                        <div>
+                            <a class="home__lichsu__nav" href="#" uk-slider-item="next"><img class="uk-responsive-height uk-responsive-width" src="images/Arrow-next.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-expand">
+                    <div class="home__lichsu__box1 uk-position-relative">
+                        <div class="uk-position-top home__lichsu__box2">
+                            <div class="uk-position-relative">
+
+                                <div class="uk-slider-container" uk-toggle="cls: uk-slider-container-offset; mode: media; media: @m">
+                                    <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-auto@m uk-grid-small uk-grid-32-m uk-grid-match" uk-grid>
+                                        <li>
+                                            <div class="uk-card home__lichsu__card uk-card-default uk-flex uk-flex-column">
+                                                <div class="uk-card-body home__lichsu__card__body uk-flex-1">
+                                                    <div class="home__lichsu__txt2">2017: Chính thức nhận giấy phép đầu tư tại Myanmar</div>
+                                                </div>
+                                                <div class="uk-card-footer home__lichsu__card__footer">
+                                                    <div class="home__lichsu__txt3">2017</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-card home__lichsu__card uk-card-default uk-flex uk-flex-column">
+                                                <div class="uk-card-body home__lichsu__card__body uk-flex-1">
+                                                    <div class="home__lichsu__txt2">12/2016: Kỷ niệm 10 năm Viettel đầu tư ra nước ngoài</div>
+                                                </div>
+                                                <div class="uk-card-footer home__lichsu__card__footer">
+                                                    <div class="home__lichsu__txt3">2016</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-card home__lichsu__card uk-card-default uk-flex uk-flex-column">
+                                                <div class="uk-card-body home__lichsu__card__body uk-flex-1">
+                                                    <div class="home__lichsu__txt2">10/2015: Khai trương mạng viễn thông Halotel tại Tanzania.</div>
+                                                </div>
+                                                <div class="uk-card-footer home__lichsu__card__footer">
+                                                    <div class="home__lichsu__txt3">2015</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-card home__lichsu__card uk-card-default uk-flex uk-flex-column">
+                                                <div class="uk-card-body home__lichsu__card__body uk-flex-1">
+                                                    <div class="home__lichsu__txt2">10/2014: Khai trương dịch vụ di động tại Peru.</div>
+                                                </div>
+                                                <div class="uk-card-footer home__lichsu__card__footer">
+                                                    <div class="home__lichsu__txt3">2014</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-card home__lichsu__card uk-card-default uk-flex uk-flex-column">
+                                                <div class="uk-card-body home__lichsu__card__body uk-flex-1">
+                                                    <div class="home__lichsu__txt2">2017: Chính thức nhận giấy phép đầu tư tại Myanmar</div>
+                                                </div>
+                                                <div class="uk-card-footer home__lichsu__card__footer">
+                                                    <div class="home__lichsu__txt3">2013</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-card home__lichsu__card uk-card-default uk-flex uk-flex-column">
+                                                <div class="uk-card-body home__lichsu__card__body uk-flex-1">
+                                                    <div class="home__lichsu__txt2">12/2016: Kỷ niệm 10 năm Viettel đầu tư ra nước ngoài</div>
+                                                </div>
+                                                <div class="uk-card-footer home__lichsu__card__footer">
+                                                    <div class="home__lichsu__txt3">2012</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-card home__lichsu__card uk-card-default uk-flex uk-flex-column">
+                                                <div class="uk-card-body home__lichsu__card__body uk-flex-1">
+                                                    <div class="home__lichsu__txt2">10/2015: Khai trương mạng viễn thông Halotel tại Tanzania.</div>
+                                                </div>
+                                                <div class="uk-card-footer home__lichsu__card__footer">
+                                                    <div class="home__lichsu__txt3">2011</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="uk-card home__lichsu__card uk-card-default uk-flex uk-flex-column">
+                                                <div class="uk-card-body home__lichsu__card__body uk-flex-1">
+                                                    <div class="home__lichsu__txt2">10/2014: Khai trương dịch vụ di động tại Peru.</div>
+                                                </div>
+                                                <div class="uk-card-footer home__lichsu__card__footer">
+                                                    <div class="home__lichsu__txt3">2010</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin uk-hidden@s"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Lịch sử phát triển-->
 
     <div>
         <div class="uk-container">
