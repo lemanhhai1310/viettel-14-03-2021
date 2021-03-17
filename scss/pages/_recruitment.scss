@@ -1,0 +1,140 @@
+.recruitment{
+  &__txt{
+    @extend .fz-16;
+    line-height: 1.5;
+    color: #000;
+  }
+  &__section{
+    @include media-breakpoint-up('m'){
+      padding-bottom: 189px !important;
+    }
+  }
+  &__grid1{
+    >.uk-grid-margin{
+      @include media-breakpoint-up('m'){
+        margin-top: 80px !important;
+      }
+    }
+  }
+  &__card1{
+    box-shadow: 0px 10px 20px rgba(221, 221, 221, 0.5);
+    border-radius: 24px;
+    &__soluong{
+      background: #EA0A2A;
+      border-radius: 0px 23.5px 0px 0px;
+      width: 128px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+      box-sizing: border-box;
+      span{
+        @extend .fz-16;
+        line-height: 1.5;
+        color: #ffffff;
+      }
+    }
+    &__btn1{
+      background: #EA0A2A;
+      @extend .fz-26;
+      font-family: $font-primary-Bold;
+      color: #ffffff;
+      text-transform: inherit;
+      @include media-breakpoint-up('m'){
+        line-height: 62px;
+      }
+    }
+    &__body{
+      padding: 20px;
+      @include media-breakpoint-up('m'){
+        padding: 24px 32px 24px 32px;
+      }
+      &__title{
+        @extend .fz-24;
+        line-height: 1.5;
+        font-family: $font-primary-Bold;
+        a{
+          color: #000;
+        }
+      }
+      &__divider{
+        margin-top: 12px;
+        margin-bottom: 12px;
+        border-color: #828282;
+      }
+      &__txt1{
+        @extend .fz-18;
+        line-height: 1.5;
+        color: #828282;
+        font-family: $font-primary-Bold;
+      }
+      &__txt2{
+        @extend .fz-14;
+        line-height: (18/14);
+        color: #BDBDBD;
+        font-family: $font-primary-SemiBold;
+      }
+      &__txt3{
+        @extend .fz-16;
+        line-height: 1.5;
+        color: #828282;
+      }
+    }
+  }
+  &__section1{
+    @include media-breakpoint-up('m'){
+      padding-top: 45px;
+      padding-bottom: 80px;
+    }
+  }
+  &__cauhoi{
+    &__li{
+      background: #FFFFFF;
+      /* 2 */
+
+      box-shadow: 0px 10px 20px rgba(221, 221, 221, 0.5);
+      border-radius: 10px;
+      @extend .recruitment__cauhoi__dc1;
+      &:nth-child(n+2){
+        @include media-breakpoint-up('m'){
+          margin-top: 32px !important;
+        }
+      }
+    }
+    &__title{
+      @extend .fz-18;
+      line-height: 1.3;
+      color: #000;
+      font-family: $font-primary-Bold;
+      @extend .recruitment__cauhoi__dc;
+    }
+    &__content{
+      @extend .fz-14;
+      line-height: (18/14);
+      color: #000;
+      @extend .recruitment__cauhoi__dc;
+      @include media-breakpoint-up('m'){
+        padding-top: 24px !important;
+        padding-bottom: 49px !important;
+      }
+      margin: 0 !important;
+      border-top: 1px solid #E0E0E0;
+    }
+    &__dc{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      @include media-breakpoint-up('m'){
+        padding-top: 21px;
+        padding-bottom: 21px;
+      }
+    }
+    &__dc1{
+      padding-left: 15px;
+      padding-right: 15px;
+      @include media-breakpoint-up('m'){
+        padding-left: 35px;
+        padding-right: 35px;
+      }
+    }
+  }
+}

@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Viettel Global - Tuyen dung</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="style.css?v=1615969408">
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@shinsenter/defer.js/dist/defer_plus.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body class="isHome">
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+     attribution=setup_tool
+     page_id="2428809380682169"
+     logged_in_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi"
+     logged_out_greeting="Bạn cần cắt HTML/CSS? Hãy chat ngay với chúng tôi">
+</div>
+<script>
+  defer(function() {
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v5.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  }, 5000);
+</script><section id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
+    <div uk-sticky="top: 100vh;animation: uk-animation-slide-top;">
+        <header class="header">
+            <div class="uk-container uk-padding-remove">
+                <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                    <div class="uk-navbar-left">
+                        <a href="." class="uk-navbar-item uk-logo"><img src="images/logo.png" alt=""></a>
+                    </div>
+
+                    <div class="uk-navbar-right">
+                        <div class="uk-width-1-1">
+                            <div class="uk-section-xsmall header__top uk-visible@m">
+                                <div class="uk-flex-right@m uk-flex-middle uk-grid-12 uk-child-width-auto" uk-grid>
+                                    <div>
+                                        <div class="uk-position-relative uk-flex uk-flex-middle">
+                                            <label class="header__top__lang uk-flex-inline uk-flex-middle">
+                                                <input class="uk-checkbox header__top__lang__check uk-hidden" type="checkbox">
+                                                <span class="header__top__lang__txt uk-border-pill" data-vi="VN" data-en="EN">
+
+                                                </span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <form class="uk-search uk-search-default header__top__boxSearch">
+                                            <span class="uk-search-icon-flip uk-background-norepeat uk-background-center-center" uk-search-icon data-src="images/search.png" uk-img></span>
+                                            <input class="uk-search-input uk-border-pill header__top__boxSearch__input" type="search" placeholder="">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="uk-navbar-nav uk-visible@m">
+                                <li class="uk-active"><a href="#">Trang chủ</a></li>
+                                <li><a href="#">Về Viettel Global</a></li>
+                                <li>
+                                    <a href="#">Nhà đầu tư</a>
+                                    <div class="uk-navbar-dropdown">
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">Công bố thông tin</a></li>
+                                            <li><a href="#">Báo cáo tài chính</a></li>
+                                            <li><a href="#">Thông tin cổ phiếu</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="news.php">Tin tức</a></li>
+                                <li><a href="recruitment.php">Tuyển dụng</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+        </header>
+    </div><!--Slider-->
+    <div>
+        <div class="uk-container uk-padding-remove">
+            <div class="home__slider uk-overflow-hidden">
+                <div uk-slideshow="animation: push;ratio: 1224:535;min-height: 300;">
+
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                        <ul class="uk-slideshow-items">
+                            <li>
+                                <img src="images/tuyendung/Rectangle13.png" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img src="images/photo.jpg" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img src="images/dark.jpg" alt="" uk-cover>
+                            </li>
+                            <li>
+                                <img src="images/light.jpg" alt="" uk-cover>
+                            </li>
+                        </ul>
+
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+                    </div>
+
+                    <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Slider-->
+
+    <div class="uk-section recruitment__section">
+        <div class="uk-container">
+            <!--viettel blobal Tuyển dụng-->
+            <div class="mb-40 mb-60-s mb-138-m uk-text-center">
+                <h2 class="uk-h2 home__title uk-text-uppercase uk-text-center mb-15">viettel blobal Tuyển dụng</h2>
+                <div class="recruitment__txt">Nơi cập nhật tin tức tuyển dụng – Cơ hội việc làm, chế độ đãi ngộ – Chia sẻ văn hóa làm việc tại Viettel Blobal.</div>
+            </div>
+            <div class="uk-grid-small uk-grid-24-m uk-grid-match uk-child-width-1-2@s uk-child-width-1-3@m recruitment__grid1" uk-grid>
+                <div>
+                    <div class="recruitment__card1 uk-overflow-hidden uk-card uk-card-default uk-flex uk-flex-column">
+                        <div class="uk-cover-container">
+                            <img src="images/tuyendung/img1.png" alt="" uk-cover>
+                            <canvas width="392" height="231"></canvas>
+                            <div class="uk-position-bottom-left recruitment__card1__soluong">
+                                <span>Số lượng: 01</span>
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-flex-1 recruitment__card1__body">
+                            <div class="uk-flex uk-flex-column uk-height-1-1">
+                                <div class="uk-flex-1 mb-20 mb-40-m">
+                                    <h4 class="uk-h4 mb-10 recruitment__card1__body__title"><a href="">Software Engineer (Java, C/C++, MySQL)</a></h4>
+                                    <div class="recruitment__card1__body__txt1">Full Time</div>
+                                </div>
+                                <div>
+                                    <div class="uk-flex-middle uk-grid-small" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-grid-8 uk-flex-middle" uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <img src="images/tuyendung/map.png" alt="">
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <span class="recruitment__card1__body__txt2">Hanoi; Ho Chi Minh</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <span class="recruitment__card1__body__txt2">3-3-2021</span>
+                                        </div>
+                                    </div>
+                                    <hr class="recruitment__card1__body__divider">
+                                    <div class="recruitment__card1__body__txt3">Flexible - depending on level of experience</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-footer uk-padding-remove">
+                            <a href="" class="recruitment__card1__btn1 uk-button uk-button-secondary uk-width-1-1">Ứng tuyển</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="recruitment__card1 uk-overflow-hidden uk-card uk-card-default uk-flex uk-flex-column">
+                        <div class="uk-cover-container">
+                            <img src="images/tuyendung/img2.png" alt="" uk-cover>
+                            <canvas width="392" height="231"></canvas>
+                            <div class="uk-position-bottom-left recruitment__card1__soluong">
+                                <span>Số lượng: 01</span>
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-flex-1 recruitment__card1__body">
+                            <div class="uk-flex uk-flex-column uk-height-1-1">
+                                <div class="uk-flex-1 mb-20 mb-40-m">
+                                    <h4 class="uk-h4 mb-10 recruitment__card1__body__title"><a href="">Kỹ sư phát triển phần mềm Big Data</a></h4>
+                                    <div class="recruitment__card1__body__txt1">Full Time</div>
+                                </div>
+                                <div>
+                                    <div class="uk-flex-middle uk-grid-small" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-grid-8 uk-flex-middle" uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <img src="images/tuyendung/map.png" alt="">
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <span class="recruitment__card1__body__txt2">Hanoi; Ho Chi Minh</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <span class="recruitment__card1__body__txt2">3-3-2021</span>
+                                        </div>
+                                    </div>
+                                    <hr class="recruitment__card1__body__divider">
+                                    <div class="recruitment__card1__body__txt3">Flexible - depending on level of experience</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-footer uk-padding-remove">
+                            <a href="" class="recruitment__card1__btn1 uk-button uk-button-secondary uk-width-1-1">Ứng tuyển</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="recruitment__card1 uk-overflow-hidden uk-card uk-card-default uk-flex uk-flex-column">
+                        <div class="uk-cover-container">
+                            <img src="images/tuyendung/img3.png" alt="" uk-cover>
+                            <canvas width="392" height="231"></canvas>
+                            <div class="uk-position-bottom-left recruitment__card1__soluong">
+                                <span>Số lượng: 01</span>
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-flex-1 recruitment__card1__body">
+                            <div class="uk-flex uk-flex-column uk-height-1-1">
+                                <div class="uk-flex-1 mb-20 mb-40-m">
+                                    <h4 class="uk-h4 mb-10 recruitment__card1__body__title"><a href="">Data Scientist</a></h4>
+                                    <div class="recruitment__card1__body__txt1">Full Time</div>
+                                </div>
+                                <div>
+                                    <div class="uk-flex-middle uk-grid-small" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-grid-8 uk-flex-middle" uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <img src="images/tuyendung/map.png" alt="">
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <span class="recruitment__card1__body__txt2">Hanoi; Ho Chi Minh</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <span class="recruitment__card1__body__txt2">3-3-2021</span>
+                                        </div>
+                                    </div>
+                                    <hr class="recruitment__card1__body__divider">
+                                    <div class="recruitment__card1__body__txt3">Flexible - depending on level of experience</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-footer uk-padding-remove">
+                            <a href="" class="recruitment__card1__btn1 uk-button uk-button-secondary uk-width-1-1">Ứng tuyển</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="recruitment__card1 uk-overflow-hidden uk-card uk-card-default uk-flex uk-flex-column">
+                        <div class="uk-cover-container">
+                            <img src="images/tuyendung/img4.png" alt="" uk-cover>
+                            <canvas width="392" height="231"></canvas>
+                            <div class="uk-position-bottom-left recruitment__card1__soluong">
+                                <span>Số lượng: 01</span>
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-flex-1 recruitment__card1__body">
+                            <div class="uk-flex uk-flex-column uk-height-1-1">
+                                <div class="uk-flex-1 mb-20 mb-40-m">
+                                    <h4 class="uk-h4 mb-10 recruitment__card1__body__title"><a href="">Kỹ sư chính An toàn thông tin (BO)</a></h4>
+                                    <div class="recruitment__card1__body__txt1">Full Time</div>
+                                </div>
+                                <div>
+                                    <div class="uk-flex-middle uk-grid-small" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-grid-8 uk-flex-middle" uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <img src="images/tuyendung/map.png" alt="">
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <span class="recruitment__card1__body__txt2">Hanoi; Ho Chi Minh</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <span class="recruitment__card1__body__txt2">3-3-2021</span>
+                                        </div>
+                                    </div>
+                                    <hr class="recruitment__card1__body__divider">
+                                    <div class="recruitment__card1__body__txt3">Flexible - depending on level of experience</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-footer uk-padding-remove">
+                            <a href="" class="recruitment__card1__btn1 uk-button uk-button-secondary uk-width-1-1">Ứng tuyển</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="recruitment__card1 uk-overflow-hidden uk-card uk-card-default uk-flex uk-flex-column">
+                        <div class="uk-cover-container">
+                            <img src="images/tuyendung/img5.png" alt="" uk-cover>
+                            <canvas width="392" height="231"></canvas>
+                            <div class="uk-position-bottom-left recruitment__card1__soluong">
+                                <span>Số lượng: 01</span>
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-flex-1 recruitment__card1__body">
+                            <div class="uk-flex uk-flex-column uk-height-1-1">
+                                <div class="uk-flex-1 mb-20 mb-40-m">
+                                    <h4 class="uk-h4 mb-10 recruitment__card1__body__title"><a href="">02 Data Engineer (Java, Scala, SQL)</a></h4>
+                                    <div class="recruitment__card1__body__txt1">Full Time</div>
+                                </div>
+                                <div>
+                                    <div class="uk-flex-middle uk-grid-small" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-grid-8 uk-flex-middle" uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <img src="images/tuyendung/map.png" alt="">
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <span class="recruitment__card1__body__txt2">Hanoi; Ho Chi Minh</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <span class="recruitment__card1__body__txt2">3-3-2021</span>
+                                        </div>
+                                    </div>
+                                    <hr class="recruitment__card1__body__divider">
+                                    <div class="recruitment__card1__body__txt3">Flexible - depending on level of experience</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-footer uk-padding-remove">
+                            <a href="" class="recruitment__card1__btn1 uk-button uk-button-secondary uk-width-1-1">Ứng tuyển</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="recruitment__card1 uk-overflow-hidden uk-card uk-card-default uk-flex uk-flex-column">
+                        <div class="uk-cover-container">
+                            <img src="images/tuyendung/img6.png" alt="" uk-cover>
+                            <canvas width="392" height="231"></canvas>
+                            <div class="uk-position-bottom-left recruitment__card1__soluong">
+                                <span>Số lượng: 01</span>
+                            </div>
+                        </div>
+                        <div class="uk-card-body uk-flex-1 recruitment__card1__body">
+                            <div class="uk-flex uk-flex-column uk-height-1-1">
+                                <div class="uk-flex-1 mb-20 mb-40-m">
+                                    <h4 class="uk-h4 mb-10 recruitment__card1__body__title"><a href="">09 Backend Developers (Python, Golang)</a></h4>
+                                    <div class="recruitment__card1__body__txt1">Full Time</div>
+                                </div>
+                                <div>
+                                    <div class="uk-flex-middle uk-grid-small" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-grid-8 uk-flex-middle" uk-grid>
+                                                <div class="uk-width-auto">
+                                                    <img src="images/tuyendung/map.png" alt="">
+                                                </div>
+                                                <div class="uk-width-expand">
+                                                    <span class="recruitment__card1__body__txt2">Hanoi; Ho Chi Minh</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-auto">
+                                            <span class="recruitment__card1__body__txt2">3-3-2021</span>
+                                        </div>
+                                    </div>
+                                    <hr class="recruitment__card1__body__divider">
+                                    <div class="recruitment__card1__body__txt3">Flexible - depending on level of experience</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-card-footer uk-padding-remove">
+                            <a href="" class="recruitment__card1__btn1 uk-button uk-button-secondary uk-width-1-1">Ứng tuyển</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/viettel blobal Tuyển dụng-->
+        </div>
+    </div>
+    <div class="uk-section recruitment__section1 uk-background-muted">
+        <div class="uk-container uk-container-small">
+            <div class="mb-20 mb-30-s mb-47-m uk-text-center">
+                <h2 class="uk-h2 home__title uk-text-uppercase uk-text-center uk-margin-remove">câu hỏi thường gặp</h2>
+            </div>
+            <ul class="recruitment__cauhoi" uk-accordion>
+                <li class="recruitment__cauhoi__li uk-open">
+                    <a class="uk-accordion-title recruitment__cauhoi__title" href="#">Hướng dẫn ứng viên nộp hồ sơ qua mạng</a>
+                    <div class="uk-accordion-content recruitment__cauhoi__content">
+                        <p>Các ứng viên quan tâm gửi hồ sơ đến Phòng Tổ chức Nhân sự Tổng Công ty qua địa chỉ E-mail: tcnsvtg@gmail.com</p>
+
+                        <p>Hồ sơ gồm:</p>
+
+                        <p>1. Đơn xin việc</p>
+
+                        <p>2. CV</p>
+
+                        <p>CV yêu cầu các thông tin như sau:</p>
+
+                        <p>+ Thông tin cá nhân: Tên, giới tính, số chứng minh nhân dân, ngày tháng năm sinh, tình trạng hôn nhân, sức khỏe.</p>
+
+                        <p>+ Thông tin về học vấn: Trình độ học vấn, các văn bằng chứng chỉ liên quan (yêu cầu bản scan đi kèm).</p>
+
+                        <p>+ Thông tin kinh nghiệm làm việc: Liệt kê kinh nghiệm công tác và các vị trí công việc đảm nhiệm.</p>
+
+                        <p>+ Ghi rõ vị trí dự tuyển, mong muốn khi làm việc, mức lương hiện tại ở đơn vị cũ (nếu có), mức lương đề nghị khi được nhận vào làm việc vị trí dự tuyển.</p>
+
+                        <p>+ Thông tin liên lạc: Địa chỉ liên lạc, số điện thoại.</p>
+                    </div>
+                </li>
+                <li class="recruitment__cauhoi__li ">
+                    <a class="uk-accordion-title recruitment__cauhoi__title" href="#">Khi nào có thể đi làm?</a>
+                    <div class="uk-accordion-content recruitment__cauhoi__content">
+                        <p>Các ứng viên quan tâm gửi hồ sơ đến Phòng Tổ chức Nhân sự Tổng Công ty qua địa chỉ E-mail: tcnsvtg@gmail.com</p>
+
+                        <p>Hồ sơ gồm:</p>
+
+                        <p>1. Đơn xin việc</p>
+
+                        <p>2. CV</p>
+
+                        <p>CV yêu cầu các thông tin như sau:</p>
+
+                        <p>+ Thông tin cá nhân: Tên, giới tính, số chứng minh nhân dân, ngày tháng năm sinh, tình trạng hôn nhân, sức khỏe.</p>
+
+                        <p>+ Thông tin về học vấn: Trình độ học vấn, các văn bằng chứng chỉ liên quan (yêu cầu bản scan đi kèm).</p>
+
+                        <p>+ Thông tin kinh nghiệm làm việc: Liệt kê kinh nghiệm công tác và các vị trí công việc đảm nhiệm.</p>
+
+                        <p>+ Ghi rõ vị trí dự tuyển, mong muốn khi làm việc, mức lương hiện tại ở đơn vị cũ (nếu có), mức lương đề nghị khi được nhận vào làm việc vị trí dự tuyển.</p>
+
+                        <p>+ Thông tin liên lạc: Địa chỉ liên lạc, số điện thoại.</p>
+                    </div>
+                </li>
+                <li class="recruitment__cauhoi__li ">
+                    <a class="uk-accordion-title recruitment__cauhoi__title" href="#">Cơ cấu tổ chức của Công ty như thế nào?</a>
+                    <div class="uk-accordion-content recruitment__cauhoi__content">
+                        <p>Các ứng viên quan tâm gửi hồ sơ đến Phòng Tổ chức Nhân sự Tổng Công ty qua địa chỉ E-mail: tcnsvtg@gmail.com</p>
+
+                        <p>Hồ sơ gồm:</p>
+
+                        <p>1. Đơn xin việc</p>
+
+                        <p>2. CV</p>
+
+                        <p>CV yêu cầu các thông tin như sau:</p>
+
+                        <p>+ Thông tin cá nhân: Tên, giới tính, số chứng minh nhân dân, ngày tháng năm sinh, tình trạng hôn nhân, sức khỏe.</p>
+
+                        <p>+ Thông tin về học vấn: Trình độ học vấn, các văn bằng chứng chỉ liên quan (yêu cầu bản scan đi kèm).</p>
+
+                        <p>+ Thông tin kinh nghiệm làm việc: Liệt kê kinh nghiệm công tác và các vị trí công việc đảm nhiệm.</p>
+
+                        <p>+ Ghi rõ vị trí dự tuyển, mong muốn khi làm việc, mức lương hiện tại ở đơn vị cũ (nếu có), mức lương đề nghị khi được nhận vào làm việc vị trí dự tuyển.</p>
+
+                        <p>+ Thông tin liên lạc: Địa chỉ liên lạc, số điện thoại.</p>
+                    </div>
+                </li>
+                <!--
+    <li class="uk-open">
+        <a class="uk-accordion-title" href="#">Item 1</a>
+        <div class="uk-accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </li>
+    <li>
+        <a class="uk-accordion-title" href="#">Item 2</a>
+        <div class="uk-accordion-content">
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+        </div>
+    </li>
+    <li>
+        <a class="uk-accordion-title" href="#">Item 3</a>
+        <div class="uk-accordion-content">
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+        </div>
+    </li>
+    -->
+            </ul>
+        </div>
+    </div>
+    <div class="footer__height"></div>
+    <footer class="footer uk-position-relative uk-background-norepeat uk-background-cover uk-background-center-center" data-src="images/footer/bg1.jpeg" uk-img>
+        <div class="footer__overlay uk-position-cover"></div>
+        <div class="uk-section footer__section1 uk-position-relative">
+            <div class="uk-container">
+                <div class="uk-card uk-card-default uk-card-body footer__card1 mb-30 mb-64-m footer__boxLienhe__body">
+                    <div class="uk-grid-15 uk-grid-96-m" uk-grid>
+                        <div class="uk-width-auto@m">
+                            <h2 class="uk-h2 uk-margin-remove home__title uk-text-center uk-text-left@m">Liên hệ</h2>
+                        </div>
+                        <div class="uk-width-expand">
+                            <form class="uk-grid-small uk-grid-48-m footer__boxLienhe__grid1" uk-grid>
+                                <div class="uk-width-1-2@s">
+                                    <input class="uk-input uk-border-pill footer__boxLienhe__input" type="text" placeholder="*Họ và tên">
+                                </div>
+                                <div class="uk-width-1-2@s">
+                                    <input class="uk-input uk-border-pill footer__boxLienhe__input" type="tel" placeholder="*Số điện thoại">
+                                </div>
+                                <div class="uk-width-1-2@s">
+                                    <input class="uk-input uk-border-pill footer__boxLienhe__input" type="email" placeholder="*Địa chỉ email">
+                                </div>
+                                <div class="uk-width-1-2@s">
+                                    <div class="uk-text-right">
+                                        <button type="button" class="uk-button footer__boxLienhe__btn uk-button-secondary uk-border-pill">Gửi</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-grid-small uk-grid-128-m uk-flex-bottom uk-light" uk-grid>
+                    <div class="uk-width-2-5@m">
+                        <figure class="mb-15 mb-35-m footer__boxLogo uk-text-center uk-text-left@m">
+                            <img src="images/footer/logo.png" alt="">
+                        </figure>
+                        <div class="mb-20 mb-40-m footer__boxDiachi">
+                            <div class="footer__boxDiachi__name">TỔNG CÔNG TY CP ĐẦU TƯ QUỐC TẾ VIETTEL</div>
+                            <div class="footer__boxDiachi__desc">Tầng 39 Tòa nhà Keangnam Landmark, lô E6, khu đô thị mới Cầu Giấy, Phường Mễ Trì, Nam Từ Liêm, Hà Nội</div>
+                        </div>
+                        <div class="footer__boxLienket">
+                            <h4 class="uk-h4 footer__boxLienket__title mb-15 mb-20-m">Liên kết website</h4>
+                            <ul class="uk-list footer__boxLienket__list">
+                                <li><a href="">Tập đoàn Viễn thông Quân đội Viettel</a></li>
+                                <li><a href="">Tổng công ty Viễn thông Viettel</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="uk-width-expand">
+                        <div uk-grid>
+                            <div class="uk-width-1-3@m">
+                                <h3 class="uk-h3 footer__title mb-20 mb-45-m">Liên kết</h3>
+                                <ul class="uk-list footer__menu">
+                                    <li><a href="">Giới thiệu</a></li>
+                                    <li><a href="">Quan hệ cổ đông</a></li>
+                                    <li><a href="">Thị trường</a></li>
+                                    <li><a href="">Tin tức</a></li>
+                                    <li><a href="">Thư viện</a></li>
+                                </ul>
+                            </div>
+                            <div class="uk-width-expand">
+                                <div class="uk-child-width-auto mb-20 mb-39-m uk-flex-middle uk-flex-center uk-grid-16" uk-grid>
+                                    <div>
+                                        <div class="footer__brand">
+                                            <img src="images/footer/viettel-global.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <span class="footer__boxLienket__title">Viettel Global</span>
+                                    </div>
+                                </div>
+                                <div class="uk-flex-center" uk-grid>
+                                    <div class="uk-width-1-2 uk-width-2-5@m">
+                                        <div class="uk-child-width-1-1@m uk-grid-small uk-grid-20-m" uk-grid>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/viettel-global.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Bitel</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/mytel.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Mytel</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/halotel.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Halotel</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/natcom.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Natcom</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/lumitel.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Lumitel</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-1-2 uk-width-2-5@m">
+                                        <div class="uk-child-width-1-1@m uk-grid-small uk-grid-20-m" uk-grid>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/nexttel.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Nexttel</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/Metfone.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Metfone</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/telemor.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Telemor</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/viettel-global.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Movitel</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="uk-child-width-auto uk-flex-middle uk-grid-16 footer__brand__item" uk-grid>
+                                                    <div class="uk-width-auto">
+                                                        <div class="footer__brand">
+                                                            <img src="images/footer/unitel.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="uk-width-expand">
+                                                        <span class="footer__brand__txt"><a href="">Unitel</a></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="footer__divider">
+                <div class="uk-text-center">
+                    <span class="footer__copyright">@Viettel Global</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+</body>
+</html>

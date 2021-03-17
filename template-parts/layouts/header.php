@@ -65,7 +65,7 @@
                                     </div>
                                 </li>
                                 <li><a href="news.php">Tin tức</a></li>
-                                <li><a href="#">Tuyển dụng</a></li>
+                                <li><a href="recruitment.php">Tuyển dụng</a></li>
                             </ul>
                         </div>
                     </div>
