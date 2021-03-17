@@ -1,0 +1,13 @@
+.news{
+  &__btn1{
+    @extend .fz-24;
+    color: #BDBDBD;
+    border-color: currentColor;
+    text-transform: inherit;
+    &:hover,
+    &.uk-active{
+      color: #000;
+      border-color: currentColor;
+    }
+  }
+}

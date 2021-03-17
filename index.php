@@ -5,7 +5,7 @@
 <div>
     <div class="uk-container uk-padding-remove">
         <div class="home__slider uk-overflow-hidden">
-            <div uk-slideshow="animation: push;ratio: 1224:535;min-height: 450;">
+            <div uk-slideshow="animation: push;ratio: 1224:535;min-height: 300;">
 
                 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
 
@@ -367,7 +367,7 @@
                     );
                     foreach ($data as $k => $v): ?>
                         <div class="uk-width-1-1">
-                            <div class="uk-grid-small uk-grid-48-m uk-flex-middle" uk-grid>
+                            <div class="uk-grid-small uk-grid-48-m" uk-grid uk-toggle="cls: uk-flex-middle; mode: media; media: @m">
                                 <div class="uk-width-1-3 uk-width-auto@m">
                                     <div class="uk-position-relative">
                                         <div class="uk-cover-container home__tintucnoibat__box2__img">

@@ -26,7 +26,7 @@
             <div class="uk-container uk-padding-remove">
                 <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
                     <div class="uk-navbar-left">
-                        <a href="" class="uk-navbar-item uk-logo"><img src="images/logo.png" alt=""></a>
+                        <a href="." class="uk-navbar-item uk-logo"><img src="images/logo.png" alt=""></a>
                     </div>
 
                     <div class="uk-navbar-right">
@@ -64,7 +64,7 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="#">Tin tức</a></li>
+                                <li><a href="news.php">Tin tức</a></li>
                                 <li><a href="#">Tuyển dụng</a></li>
                             </ul>
                         </div>
