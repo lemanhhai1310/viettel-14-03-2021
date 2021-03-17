@@ -3,17 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="70b5e67f-08d9-453e-aadd-36d2fb8c5393" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../02/ttdt-thanhhoa/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_recruitment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tuyendung/Rectangle13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tuyendung/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tuyendung/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tuyendung/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tuyendung/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tuyendung/img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tuyendung/img6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tuyendung/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recruitment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_recruitment.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_recruitment-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tuyendung/Recruitment/Group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tuyendung/Recruitment/Recruitment/Group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tuyendung/Recruitment/Recruitment/Vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tuyendung/Recruitment/Vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recruitment-detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/pages/_recruitment-detail.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/ttdt-thanhhoa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/ttdt-thanhhoa/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" afterDir="false" />
@@ -34,14 +30,12 @@
       <change beforePath="$PROJECT_DIR$/../hopgiaygiare/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../hopgiaygiare/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hopgiaygiare/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hopgiaygiare/template-parts/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/FSPFBeauSansPro/FS PFBeauSansPro-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/FSPFBeauSansPro/FS-PFBeauSansPro-SemiBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/abstracts/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recruitment.php" beforeDir="false" afterPath="$PROJECT_DIR$/recruitment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/base/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/base/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_fontsize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_fontsize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_margin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/layouts/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +112,7 @@
       <workItem from="1615888664630" duration="1790000" />
       <workItem from="1615893015415" duration="83000" />
       <workItem from="1615908101233" duration="1293000" />
-      <workItem from="1615941527032" duration="16493000" />
+      <workItem from="1615941527032" duration="20494000" />
     </task>
     <servers />
   </component>

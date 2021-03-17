@@ -91,7 +91,7 @@
                     <div class="uk-card-body uk-flex-1 recruitment__card1__body">
                         <div class="uk-flex uk-flex-column uk-height-1-1">
                             <div class="uk-flex-1 mb-20 mb-40-m">
-                                <h4 class="uk-h4 mb-10 recruitment__card1__body__title"><a href=""><?= $v['title'] ?></a></h4>
+                                <h4 class="uk-h4 mb-10 recruitment__card1__body__title"><a href="recruitment-detail.php"><?= $v['title'] ?></a></h4>
                                 <div class="recruitment__card1__body__txt1">Full Time</div>
                             </div>
                             <div>
@@ -116,7 +116,7 @@
                         </div>
                     </div>
                     <div class="uk-card-footer uk-padding-remove">
-                        <a href="" class="recruitment__card1__btn1 uk-button uk-button-secondary uk-width-1-1">Ứng tuyển</a>
+                        <a href="recruitment-detail.php" class="recruitment__card1__btn1 uk-button uk-button-secondary uk-width-1-1">Ứng tuyển</a>
                     </div>
                 </div>
             </div>
