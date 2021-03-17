@@ -1,0 +1,27 @@
+.media{
+  &__grid1{
+    .uk-grid-margin{
+      @include media-breakpoint-up('m'){
+        margin-top: 96px !important;
+      }
+    }
+  }
+  &__box1{
+    &__img{
+      border-radius: 20px;
+    }
+    &__date{
+      @extend .fz-16;
+      color: #000;
+      line-height: (21/16);
+    }
+    &__title{
+      line-height: (28/20);
+      @extend .fz-20;
+      font-family: $font-primary-Bold;
+      a{
+        color: #0D100C;
+      }
+    }
+  }
+}

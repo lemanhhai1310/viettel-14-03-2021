@@ -53,8 +53,8 @@
                                 <li><a href="">Giới thiệu</a></li>
                                 <li><a href="">Quan hệ cổ đông</a></li>
                                 <li><a href="">Thị trường</a></li>
-                                <li><a href="">Tin tức</a></li>
-                                <li><a href="">Thư viện</a></li>
+                                <li><a href="news.php">Tin tức</a></li>
+                                <li><a href="media.php">Thư viện</a></li>
                             </ul>
                         </div>
                         <div class="uk-width-expand">
