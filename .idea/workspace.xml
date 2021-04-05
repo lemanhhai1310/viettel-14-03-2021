@@ -3,19 +3,79 @@
   <component name="ChangeListManager">
     <list default="true" id="70b5e67f-08d9-453e-aadd-36d2fb8c5393" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../02/ttdt-thanhhoa/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_media.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/media/image72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/media/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/media/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/media/img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/media/img4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/media/img5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/media/img6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/media/img7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/media/img8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/media/img9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/pages/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/assets/jquery/3.5.1/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/assets/uikit-3.6.18/css/uikit-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/assets/uikit-3.6.18/css/uikit-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/assets/uikit-3.6.18/css/uikit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/assets/uikit-3.6.18/css/uikit.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/assets/uikit-3.6.18/js/uikit-icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/assets/uikit-3.6.18/js/uikit-icons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/assets/uikit-3.6.18/js/uikit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/assets/uikit-3.6.18/js/uikit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/fonts/Arial/arial.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/images/dark.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/images/lemanhhai_anhthe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/images/light.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/images/noimage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/images/photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/abstracts/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/abstracts/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/abstracts/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/abstracts/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/base/_color.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/base/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/base/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/base/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/base/_uikits.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/components/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/components/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/components/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/components/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/components/_fontsize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/components/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/components/_keyframes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/components/_margin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/components/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/components/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/components/_slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/components/_tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/components/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/layout/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/layout/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/layout/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/layout/_navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/layout/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/pages/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/pages/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/pages/_home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/themes/_admin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/themes/_theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/vendors/_bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/scss/vendors/_jquery-ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/template-parts/commons/facebook_chat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/template-parts/layouts/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldp-qtkd/template-parts/layouts/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.18/css/uikit-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.18/css/uikit-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.18/css/uikit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.18/css/uikit.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.18/js/uikit-icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.18/js/uikit-icons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.18/js/uikit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.18/js/uikit.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/ttdt-thanhhoa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/ttdt-thanhhoa/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02/vieclam123/.idea/vcs.xml" afterDir="false" />
@@ -36,11 +96,16 @@
       <change beforePath="$PROJECT_DIR$/../hopgiaygiare/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/../hopgiaygiare/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hopgiaygiare/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hopgiaygiare/template-parts/layouts/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_margin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/layouts/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.17/css/uikit-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.17/css/uikit-rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.17/css/uikit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.17/css/uikit.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.17/js/uikit-icons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.17/js/uikit-icons.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.17/js/uikit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../base/assets/uikit-3.6.17/js/uikit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../base/template-parts/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../base/template-parts/layouts/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +182,8 @@
       <workItem from="1615888664630" duration="1790000" />
       <workItem from="1615893015415" duration="83000" />
       <workItem from="1615908101233" duration="1293000" />
-      <workItem from="1615941527032" duration="22169000" />
+      <workItem from="1615941527032" duration="22494000" />
+      <workItem from="1616029650347" duration="759000" />
     </task>
     <servers />
   </component>
